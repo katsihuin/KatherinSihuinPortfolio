@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li a {
+    width:70px;
+    height: 80;
+    background: blue;
+    text-align: center;
+    line-height: ;
+}
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.share-btn {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 20px;
+    color: #fff;
+    background: tomato;
+    padding: 13.5px 16.43px;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.6,.2,.1,1);
+}
+
+
+/* Tu CSS va aqui */
+
+.navbar {
+    background: none;
+    border: none;
+}
+/*--------------------------------------------------------------------------------------------------------HEADER*/
+.nav {
+    padding: 0 20px 0 0;
+}
+.navbar a {
+    color:#fff !important;
+}
+.nav li a:hover, .nav li a:focus {
+    font-weight: bold !important;
+}
+.nav li:hover {
+    font-size:18px;
+    transition:all 0.5s;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------HERO*/
+.hero {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+    color: white;
+
+
+}
+.hero hr {
+    width: 30px;
+    border-top:2px solid tomato;
+}
+.hero .btn {
+    background-color: tomato;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.hero .btn:hover {
+    background-color: #edce21;
+    color:#fff;
+}
+.hero .frase{
+    padding-top: 200px;
+    color: white;
+    
+}
+.hero  h1{
+    font-size: 50px;
+}
+
+/*--------------------------------------------------------------------------------------------------------ABOUT*/
+.about {
+    background-color:  tomato; 
+    color: #fff;
+    padding: 20px 0 60px 0;
+}
+
+.about h4{
+    color: #fff;
+}
+.line1 { 
+    border-top: 2px solid #fff;
+    width: 50px;
+}
+
+/*--------------------------------------------------------------------------------------------------------SERVICES*/
+.services {
+    padding:60px 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.services p{
+    color: darkgrey;
+}
+#line2{
+    border-top: 2px solid tomato;
+    width: 50px;
+}
+
+.icon-container {
+    font-size: 60px;
+    color: tomato;
+}
+
+
