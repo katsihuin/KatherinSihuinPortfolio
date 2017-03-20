@@ -1,8 +1,21 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #262626;
 }
 
+header {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: coral;
+}
+/* Share Social Media links */
 ul {
     display: flex;
     position: absolute;
@@ -12,13 +25,105 @@ ul {
 }
 
 ul li a {
-    width:70px;
+    width:80px;
     height: 80;
-    background: blue;
+    background: #fff;
     text-align: center;
-    line-height: ;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
 }
-button {
+
+ul li a .fa {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+}
+
+ul li a:hover .fa {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+ul li a:hover:before {
+    top 0;
+}
+
+ul li:nth-child(1) a:before {
+    background: blue;
+}
+
+/* Burger Menu */
+.burger {
+    position: absolute;
+    z-index: 1000;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+    background: transparent;
+    outline: none;
+    transition: .5s;
+}
+
+.burger div {
+    position: relative;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: .5s;
+    transform-origin: center;
+}
+
+.burger:hover div:nth-child(1){
+    transform: translateY(9px) rotate(-45deg);
+}
+
+.burger:hover div:nth-child(2){
+     opacity: 0;
+}
+
+.burger:hover div:nth-child(3){
+    transform: translateY(-9px) rotate(45deg);
+}
+
+.patty_one {
+    width: 30px;
+}
+
+.patty_two {
+    width: 23px;
+}
+
+.patty_three {
+    width: 26px;
+}
+
+.burger:hover div {
+    width: 30px;
+}
+/*button {
     background: none;
     border: none;
     outline: none;
@@ -36,7 +141,7 @@ button {
     transition-property: all;
     transition-duration: .3s;
     transition-timing-function: cubic-bezier(.6,.2,.1,1);
-}
+}*/
 
 
 /* Tu CSS va aqui */
@@ -45,7 +150,7 @@ button {
     background: none;
     border: none;
 }
-/*--------------------------------------------------------------------------------------------------------HEADER*/
+/*--------------------------------------------------------------------------------------------------------HEADER
 .nav {
     padding: 0 20px 0 0;
 }
@@ -59,11 +164,11 @@ button {
     font-size:18px;
     transition:all 0.5s;
 }
-
+*/
 
 /*--------------------------------------------------------------------------------------------------------HERO*/
 .hero {
-    background: url(../img/header.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     padding-bottom: 300px;
     color: white;
