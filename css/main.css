@@ -133,7 +133,7 @@ header {
 /* clouds */
 
 
-#nuages-wrapper {
+#clouds-wrapper {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -144,13 +144,13 @@ header {
     height: 100vh;
     width: 100vw;
 }
-#nuage-2, #nuage-3, #nuage-4, #nuage-4 {
+#cloud-2, #cloud-3, #cloud-4, #cloud-4 {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
     z-index: 2;
 }
-#nuage-1_1 {
+#cloud-1_1 {
     content: "";
     height: 259px;
     background-image: url("../img/cloud0.png");
@@ -163,10 +163,10 @@ header {
     background-position: 0px center;
     opacity: .5;
     background-size: contain;
-    -webkit-animation: nuage-x 150s linear infinite;
-    -moz-animation: nuage-x 150s linear infinite;
-    -o-animation: nuage-x 150s linear infinite;
-    animation: nuage-x 150s linear infinite;
+    -webkit-animation: cloud-x 150s linear infinite;
+    -moz-animation: cloud-x 150s linear infinite;
+    -o-animation: cloud-x 150s linear infinite;
+    animation: cloud-x 150s linear infinite;
 }
 
 #grad {
@@ -180,44 +180,44 @@ header {
     background-image: url(../img/cloud-grad.png);
 }
 
-#nuage-2 {
+#cloud-2 {
     background-image: url(../img/cloud1.png);
     width: 616px;
     height: 283px;
     opacity: .3;
     top: 0px;
     left: 5vw;
-    -webkit-animation: nuage_d 200s linear;
-    -moz-animation: nuage_d 200s linear;
-    -o-animation: nuage_d 200s linear;
-    animation: nuage_d 200s linear;
+    -webkit-animation: cloud_d 200s linear;
+    -moz-animation: cloud_d 200s linear;
+    -o-animation: cloud_d 200s linear;
+    animation: cloud_d 200s linear;
 }
-@-webkit-keyframes nuage_d {
+@-webkit-keyframes cloud_d {
   0%   { left: 5vw; }
   33% { left: 105vw ;}
   66%  { left: -282px ;}
   100%  { left: 5vw ;}
 }
-@-moz-keyframes nuage_d {
+@-moz-keyframes cloud_d {
   0%   { left: 5vw ; }
   33% { left: 105vw ;}
   66%  { left: -282px ;}
   100%  { left: 5vw ;}
 }
-@-o-keyframes nuage_d {
+@-o-keyframes cloud_d {
   0%   { left: 5vw ; }
   33% { left: 105vw ;}
   66%  { left: -282px ;}
   100%  { left: 5vw ;}
 }
-@keyframes nuage_d {
+@keyframes cloud_d {
   0%   {left:5vw ; }
   33% { left: 105vw ;}
   66%  { left: -282px ;}
   100%  { left: 5vw ;}
 }
 
-#nuage-3 {
+#cloud-3 {
     background-image: url(../img/cloud2.png);
     width: 1000px;
     height: 291px;
@@ -253,44 +253,44 @@ header {
   100%   { left: 0px; }
 }
 
-#nuage-4 {
+#cloud-4 {
     width: 616px;
     height: 283px;
     background-image: url(../img/cloud4.png);
     opacity: 1;
     bottom: -20px;
     right: 0px;
-    -webkit-animation: nuage_q 400s linear infinite;
-    -moz-animation: nuage_q 400s linear infinite;
-    -o-animation: nuage_q 400s linear infinite;
-    animation: nuage_q 400s linear infinite;
+    -webkit-animation: cloud_q 400s linear infinite;
+    -moz-animation: cloud_q 400s linear infinite;
+    -o-animation: cloud_q 400s linear infinite;
+    animation: cloud_q 400s linear infinite;
 }
 
-@-webkit-keyframes nuage_q {
+@-webkit-keyframes cloud_q {
   0%   { right: 0px; }
   33% { right: 100vw}
   66%   { right: 616px; }
   100%   { right: 0px; }
 }
-@-moz-keyframes nuage_q {
+@-moz-keyframes cloud_q {
   0%   { right: 0px ; }
   33% { right: 100vw;}
   66%   { right: 616px; }
   100%   { right: 0px; }
 }
-@-o-keyframes nuage_q {
+@-o-keyframes cloud_q {
   0%   { right: 0px ; }
   33% { right: 100vw;}
   66%   { right: 616px; }
   100%   { right: 0px; }
 }
-@keyframes nuage_q {
+@keyframes cloud_q {
   0%   {right:0px ; }
   33% {right: 100vw;}
   66%   { right: 616px; }
   100%   { right: 0px; }
 }
-#nuage-7 {
+#cloud-7 {
     width: 642px;
     height: 383px;
     background-image: url(../img/cloud3.png);
@@ -331,7 +331,7 @@ header {
   66% { right: -642px ;}
   100% { right: 0px ;}
 }
-#nuage-8 {
+#cloud-8 {
     width: 642px;
     height: 383px;
     background-image: url("../img/cloud3.png");
@@ -342,30 +342,30 @@ header {
     top: -115px;
     left: 60vw;
     opacity: .3;
-    -webkit-animation: nuage_h 400s linear infinite;
-    -moz-animation: nuage_h 400s linear infinite;
-    -o-animation: nuage_h 400s linear infinite;
-    animation: nuage_h 400s linear infinite;
+    -webkit-animation: cloud_h 400s linear infinite;
+    -moz-animation: cloud_h 400s linear infinite;
+    -o-animation: cloud_h 400s linear infinite;
+    animation: cloud_h 400s linear infinite;
 }
-@-webkit-keyframes nuage_h {
+@-webkit-keyframes cloud_h {
   0%   { left: 60vw; }
   33% { left: -616px}
   66%   { left: 100vw; }
   100%   { left: 60vw; }
 }
-@-moz-keyframes nuage_h {
+@-moz-keyframes cloud_h {
   0%   { left: 60vw ; }
   33% { left: -616px;}
   66%   { left: 100vw; }
   100%   { left: 60vw; }
 }
-@-o-keyframes nuage_h {
+@-o-keyframes cloud_h {
   0%   { left: 60vw ; }
   33% { left: -616px;}
   66%   { left: 100vw; }
   100%   { left: 60vw; }
 }
-@keyframes nuage_h {
+@keyframes cloud_h {
   0%   {left:60vw ; }
   33% {left: -616px;}
   66%   { left: 100vw; }
