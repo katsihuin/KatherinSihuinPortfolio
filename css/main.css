@@ -2,11 +2,22 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    outline: 1px red;
 }
 
 body {
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    
+}
+
+h5 {
+   font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 header {
@@ -27,7 +38,22 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.portfolio1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -320%);
+} 
+.portfolio2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+} 
+.portfolio {
+    font-family: 'Pacifico', cursive;
+    color: #530B57;
+}
 .welcome li {
     display: inline-block;
     margin-right: 50px;
@@ -127,7 +153,7 @@ header {
 #nuage-1_1 {
     content: "";
     height: 259px;
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/nuage0.png);
+    background-image: url("../img/cloud0.png");
     background-repeat: repeat-x;
     position: absolute;
     bottom: 0px;
@@ -151,11 +177,11 @@ header {
     left: 0;
     right: 0;
     background-repeat: repeat-x;
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/grad.png);
+    background-image: url(../img/cloud-grad.png);
 }
 
 #nuage-2 {
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/nuage1.png);
+    background-image: url(../img/cloud1.png);
     width: 616px;
     height: 283px;
     opacity: .3;
@@ -192,7 +218,7 @@ header {
 }
 
 #nuage-3 {
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/nuage2.png);
+    background-image: url(../img/cloud2.png);
     width: 1000px;
     height: 291px;
     -webkit-animation: slow-left-to-right 300s linear infinite;
@@ -230,7 +256,7 @@ header {
 #nuage-4 {
     width: 616px;
     height: 283px;
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/nuage1.png);
+    background-image: url(../img/cloud4.png);
     opacity: 1;
     bottom: -20px;
     right: 0px;
@@ -267,7 +293,7 @@ header {
 #nuage-7 {
     width: 642px;
     height: 383px;
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/nuage3.png);
+    background-image: url(../img/cloud3.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -308,7 +334,7 @@ header {
 #nuage-8 {
     width: 642px;
     height: 383px;
-    background-image: url(https://www.toastofpariscourvoisier.fr/wp-content/themes/pureemaison/img/nuage3.png);
+    background-image: url("../img/cloud3.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -426,35 +452,38 @@ header {
 /*--------------------------------------------------------------------------------------------------------ABOUT*/
 .about {
     width: 100%;
-    height: 500px;
+    height: 800px;
     background: #F9F8F4;
     position: relative;
 }
-.skills {
-    width: 100%;
-    height: 500px;
-    background: #161D36;
-    position: relative;
+
+.about h5 {
+    color:#A6787A;
 }
-.skills:before {
-    content:'';
-    width: 50%;
-    height: 100px;
-    position: absolute;
-    top: -48px;
-    left: 0;
-    background:#161D36;
-    transform: skewY(8deg);
+
+.about .color-cloud1 {
+    height: auto; 
+    width: auto; 
+    max-width: 40%; 
+    max-height: 40%;
+    margin: 0 auto;
 }
-.skills:after {
-    content:'';
-    width: 50%;
-    height: 100px;
+.img-wrapper {
+    width: 1060px;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+.text_over_image {
     position: absolute;
-    top: -48px;
-    right: 0;
-    background:#161D36;
-    transform: skewY(-8deg);
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    height:100px;
 }
 
 
@@ -555,12 +584,39 @@ h4 {
     color: white;
 }
 /*--------------------------------------------------------------------------------------------------------SKILLS*/
-.skills p, h3 {
-    color: #DFAEB1;
+.skills {
+    width: 100%;
+    height: 100%;
+    background: #ADB0CF;
+    position: relative;
 }
-
-.skills-content {
-        z-index: 10;
+.skills:before {
+    content:'';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    background:#ADB0CF;
+    transform: skewY(8deg);
+}
+.skills:after {
+    content:'';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    right: 0;
+    background:#ADB0CF;
+    transform: skewY(-8deg);
+}
+.skills-content h5{
+  z-index: 100;
+    margin-top: 100px;
+}
+.skills-content h2{
+  z-index: 100;
+    margin-bottom: 100px;
 }
  .skills_softwares {
     width: 600px;
@@ -623,402 +679,6 @@ h4 {
     bottom: 0px;
     opacity: 0;
 }
-/*--------------------------------------------------------------------------------------------------------PORTFOLIO*/
- #portfolio {
-    margin-top: 20px;
-    -webkit-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-}
- #portfolio > .portfolio-nav {
-    margin-top: 50px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -webkit-align-items: center;
-}
- #portfolio > .portfolio-nav > span {
-    color: #9F8764;
-    font-size: 21px;
-    font-size: 2.1rem;
-    letter-spacing: 0.6rem;
-    padding: 5px 40px;
-    text-align: center;
-    text-transform: uppercase;
-    -webkit-transition: all 650ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -moz-transition: all 650ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -ms-transition: all 650ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -o-transition: all 650ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    transition: all 650ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-}
- #portfolio > .portfolio-nav.on > span {
-    background-color: #1D1D1D;
-    border-right: 1px solid #9f8764;
-    padding: 5px 110px;
-    cursor: pointer;
-}
- #portfolio > .portfolio-nav.on > span:hover {
-    background-color: #9f8764;
-    color: #1D1D1D;
-}
- #portfolio > .portfolio-nav.on > span:last-child {
-    border-right: none
-}
- #portfolio > .portfolio-nav.on img {
-    display: none;
-}
- #portfolio > .portfolio-tab {
-    margin-left: 20px;
-    margin-top: 80px;
-    -webkit-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -moz-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -ms-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -o-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    transition: all 2050ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-}
- #portfolio > .portfolio-tab.on {
-    opacity: 0;
-}
- #portfolio > .portfolio-tab > .column {
-    float: left;
-    margin-left: -13px;
-    position: relative;
-    z-index: 2;
-    -webkit-perspective: 900px;
-    -moz-perspective: 900px;
-    -ms-perspective: 900px;
-    perspective: 900px;
-    transform-style: preserve-3d;
-}
- #portfolio > .portfolio-tab > .column > .prow {
-    -webkit-perspective: 900px;
-    -moz-perspective: 900px;
-    -ms-perspective: 900px;
-    perspective: 900px;
-    transform-style: flat;
-    padding: 10px;
-}
-/* FIX BUG CHROME */
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-     #portfolio > .portfolio-tab > .column > .prow {
-        -webkit-perspective: none;
-        -moz-perspective: none;
-        -ms-perspective: none;
-        perspective: none;
-        padding: 0 10px;
-    }
-}
- #portfolio > .portfolio-tab > .column > .prow > div {
-    width: 315px;
-    height: 270px;
-    margin-bottom: 5px;
-    background-color: #ccc;
-    overflow: hidden;
-    position: relative;
-    transform-style: flat;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center, center center;
-    -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
-    -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -moz-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -ms-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    -o-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-    transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
-}
- #portfolio > .portfolio-tab > .column > .prow .thumb_nb,  #portfolio > .portfolio-tab > .column > .prow .thumb_color {
-    width: 315px;
-    height: 270px;
-    background-color: #000;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center, center center;
-    -webkit-transition: all 850ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    -moz-transition: all 850ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    -ms-transition: all 850ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    -o-transition: all 850ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    transition: all 850ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 8;
-}
- #portfolio > .portfolio-tab > .column > .prow .thumb_nb {
-    z-index: 9
-}
- #portfolio > .portfolio-tab > .column > .prow.on > div > .thumb_nb {
-    opacity: 0;
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    transform: scale(1.15);
-}
- #portfolio > .portfolio-tab > .column > .prow .shadow {
-    width: 315px;
-    height: 270px;
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    top: 0;
-}
- #portfolio > .portfolio-tab > .column:nth-child(1) > .prow1 > div {
-    -webkit-transform: rotateY(-20deg);
-    -moz-transform: rotateY(-20deg);
-    -ms-transform: rotateY(-20deg);
-    -o-transform: rotateY(-20deg);
-    transform: rotateY(-20deg);
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -ms-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-}
- #portfolio > .portfolio-tab > .column:nth-child(1) > .prow2 > div {
-    -webkit-transform: rotateY(20deg);
-    -moz-transform: rotateY(20deg);
-    -ms-transform: rotateY(20deg);
-    -o-transform: rotateY(20deg);
-    transform: rotateY(20deg);
-    -webkit-transform-origin: right center;
-    -moz-transform-origin: right center;
-    -ms-transform-origin: right center;
-    -o-transform-origin: right center;
-    transform-origin: right center;
-}
- #portfolio > .portfolio-tab > .column:nth-child(2) > .prow1 > div {
-    -webkit-transform: rotateY(20deg);
-    -moz-transform: rotateY(20deg);
-    -ms-transform: rotateY(20deg);
-    -o-transform: rotateY(20deg);
-    transform: rotateY(20deg);
-    -webkit-transform-origin: right center;
-    -moz-transform-origin: right center;
-    -ms-transform-origin: right center;
-    -o-transform-origin: right center;
-    transform-origin: right center;
-}
- #portfolio > .portfolio-tab > .column:nth-child(2) > .prow2 > div {
-    -webkit-transform: rotateY(-20deg);
-    -moz-transform: rotateY(-20deg);
-    -ms-transform: rotateY(-20deg);
-    -o-transform: rotateY(-20deg);
-    transform: rotateY(-20deg);
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -ms-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-}
- #portfolio > .portfolio-tab > .column:nth-child(3) > .prow1 > div {
-    -webkit-transform: rotateY(-20deg);
-    -moz-transform: rotateY(-20deg);
-    -ms-transform: rotateY(-20deg);
-    -o-transform: rotateY(-20deg);
-    transform: rotateY(-20deg);
-    -webkit-transform-origin: left center;
-    -moz-transform-origin: left center;
-    -ms-transform-origin: left center;
-    -o-transform-origin: left center;
-    transform-origin: left center;
-}
- #portfolio > .portfolio-tab > .column:nth-child(3) > .prow2 > div {
-    -webkit-transform: rotateY(20deg);
-    -moz-transform: rotateY(20deg);
-    -ms-transform: rotateY(20deg);
-    -o-transform: rotateY(20deg);
-    transform: rotateY(20deg);
-    -webkit-transform-origin: right center;
-    -moz-transform-origin: right center;
-    -ms-transform-origin: right center;
-    -o-transform-origin: right center;
-    transform-origin: right center;
-}
- #portfolio > .portfolio-tab > .column:nth-child(1) > .prow1 > div > .shadow,  #portfolio > .portfolio-tab > .column:nth-child(2) > .prow2 > div > .shadow,  #portfolio > .portfolio-tab > .column:nth-child(3) > .prow1 > div > .shadow {
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
-}
- #portfolio > .portfolio-tab > .column:nth-child(1) > .prow2 > div > .shadow,  #portfolio > .portfolio-tab > .column:nth-child(2) > .prow1 > div > .shadow,  #portfolio > .portfolio-tab > .column:nth-child(3) > .prow2 > div > .shadow {
-    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.5)));
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
-}
- #portfolio > .portfolio-tab > .column > .prow > div > .shadow {
-    -webkit-transition: all 650ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-    -moz-transition: all 650ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-    -ms-transition: all 650ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-    -o-transition: all 650ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-    transition: all 650ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
-}
- #portfolio > .portfolio-tab > .column > .prow > div > .shadow {
-    opacity: 1;
-}
- #portfolio > .portfolio-tab > .column > .prow.on > div > .shadow {
-    opacity: 0;
-}
- #portfolio > .portfolio-tab > .column > .prow.on > div {
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-    -o-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-}
- #portfolio > .portfolio-tab > .column > .prow > div > .description {
-    position: absolute;
-    z-index: 20;
-    bottom: -80px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding: 20px 5px;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #fff;
-    -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 240ms;
-    -moz-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 240ms;
-    -ms-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 240ms;
-    -o-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 240ms;
-    transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 240ms;
-}
- #portfolio > .portfolio-tab > .column > .prow.on > div > .description {
-    bottom: 0;
-}
- #portfolio > .portfolio-tab > .column > .prow > div > .description > h1 {
-    width: 100%;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 0.12rem;
-    font-size: 15px;
-    font-size: 1.5rem;
-    text-align: center;
-}
- #portfolio > .portfolio-tab > .column > .prow > div > .description > p {
-    margin: 0;
-    padding: 0;
-}
- #portfolio > .portfolio-tab > .column > .prow > div > .linkIcon {
-    position: absolute;
-    z-index: 20;
-    top: 20%;
-    left: 50%;
-    margin-left: -44px;
-    width: 88px;
-    height: 88px;
-    background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-link-icon.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
-    -moz-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
-    -ms-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
-    -o-transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
-    transition: all 450ms cubic-bezier(0.175, 0.885, 0.320, 1.275) 300ms;
-    -webkit-transform: scale(0) rotate(90deg);
-    -moz-transform: scale(0) rotate(90deg);
-    -ms-transform: scale(0) rotate(90deg);
-    -o-transform: scale(0) rotate(90deg);
-    transform: scale(0) rotate(90deg);
-    opacity: 0;
-}
- #portfolio > .portfolio-tab > .column > .prow.on > div > .linkIcon {
-    -webkit-transform: scale(0.75) rotate(0deg);
-    -moz-transform: scale(0.75) rotate(0deg);
-    -ms-transform: scale(0.75) rotate(0deg);
-    -o-transform: scale(0.75) rotate(0deg);
-    transform: scale(0.75) rotate(0deg);
-    opacity: 1;
-}
- #portfolio .portfolio-bg-tab {
-    position: relative;
-    height: 645px;
-}
-/*FIX BUG CHROME*/
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-     #portfolio .portfolio-bg-tab {
-        top: -18px;
-    }
-}
- #portfolio .portfolio-bg-tab > div {
-    position: absolute;
-    z-index: 1;
-}
- #portfolio .portfolio-bg-tab > div:nth-child(1) {
-    left: -3px;
-    top: -15px;
-}
- #portfolio .portfolio-bg-tab > div:nth-child(2) {
-    left: 374px;
-    top: -15px;
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
- #portfolio .portfolio-bg-tab > div:nth-child(3) {
-    left: 641px;
-    top: -15px;
-}
- #portfolio .portfolio-bg-tab > div:nth-child(4) {
-    left: 52px;
-    bottom: 43px;
-    -webkit-transform: rotateX(180deg) rotateY(180deg);
-    -moz-transform: rotateX(180deg) rotateY(180deg);
-    -ms-transform: rotateX(180deg) rotateY(180deg);
-    -o-transform: rotateX(180deg) rotateY(180deg);
-    transform: rotateX(180deg) rotateY(180deg);
-}
- #portfolio .portfolio-bg-tab > div:nth-child(5) {
-    left: 319px;
-    bottom: 43px;
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-}
- #portfolio .portfolio-bg-tab > div:nth-child(6) {
-    right: 14px;
-    bottom: 43px;
-    -webkit-transform: rotateX(180deg) rotateY(180deg);
-    -moz-transform: rotateX(180deg) rotateY(180deg);
-    -ms-transform: rotateX(180deg) rotateY(180deg);
-    -o-transform: rotateX(180deg) rotateY(180deg);
-    transform: rotateX(180deg) rotateY(180deg);
-}
-/*FIX BUG CHROME*/
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-     #portfolio .portfolio-bg-tab > div:nth-child(1),  #portfolio .portfolio-bg-tab > div:nth-child(2),  #portfolio .portfolio-bg-tab > div:nth-child(3) {
-        top: -5px;
-    }
-     #portfolio .portfolio-bg-tab > div:nth-child(4),  #portfolio .portfolio-bg-tab > div:nth-child(5),  #portfolio .portfolio-bg-tab > div:nth-child(6) {
-        bottom: 55px;
-    }
-}
-
-/*--------------------------------------------------------------------------------------------- Share Social Media links */
-/*BELGIQUE*/
 
 
 
