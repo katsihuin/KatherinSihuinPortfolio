@@ -12,235 +12,310 @@
 </head>
 
 <body>
-<!--------------------Here starts Section Header-------------------->
-  <header>
-    <div class="container-fluid">
-      <button class="share-btn">
-        <i class="fa fa-share-alt" aria-hidden="true"></i>
-      </button>
-      <button class="burger">
-        <div class="patty_one"></div>
-        <div class="patty_two"></div>
-        <div class="patty_three"></div>
-      </button>
-      <div class="share-dropdown">
-        <div class="share-dropdown-wrapper">
-          <span class="share-dropdown-title">SHARE ME</span>
-          <ul class="share-dropdown-list list-unstyled">
-            <li class="share-dropdown-item">
-              <a target="_blank" href="https://www.linkedin.com/in/nurania-sihuin-14a97389/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-            <li class="share-dropdown-item">
-              <a target="_blank" href=https://github.com/katsihuin><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-            <li class="share-dropdown-item">
-              <a target="_blank" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            </li>
-          </ul>
-          <button class="share-btn--close"><i class="fa fa-times" aria-hidden="true"></i></button>
-        </div>
-      </div>
-    </div>  
-  </header>
-
-      <!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Desplegar navegación</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">MI PORTAFOLIO</a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Sobre">SOBRE MÍ</a></li>
-            <li><a href="#servicios">SERVICIOS</a></li>
-            <li><a href="#Trabajos">MIS TRABAJOS</a></li>
-            <li><a href="#Contacto">CONTACTAME</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>-->
-
-<!--------------------Here starts Section Hero-------------------->
-  <section class="hero">
-    <div class="container-fluid">
-      <h1 class="frase text-center">HOLA, MI NOMBRE ES KATHERIN <br>SOY CODER DE LABORATORIA</h1>
-      <hr>
-      <p class="text-center">Sí estás interesado en desarrollar un sitio web o necesitas un front-end developer, yo te puedo ayudar <br> con los diferentes servicios que brindo.</p>
-      <br>
-      <p class="text-center"><button class="btn">CONOCE MÁS</button></p>
-    </div>
-  </section>
-
-<!--------------------Here starts Section About-------------------->
-  <section class="about" id="Sobre">
-    <h3 class="text-center">SOBRE MÍ</h3>
-    <hr class="line1 text-center">
-    <p class="text-center">Soy egresada de laboratoria salí con el título de Frontend developer Jr. desarrollo páginas web en HTML<br> 
-    / CSS / Javascript. Soy creative, inteligente y alegre cosa que trasmito en cada de las webs que <br> desarrollo.
-    </p>
-  </section>
-
-<!--------------------Here starts Section Services-------------------->
-  <section class="services" id="servicios">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6 col-md-offset-3 col-sm-12">
-          <h3 class="text-center">SERVICIOS</h3>
-          <hr class=" text-center" id="line2">
-        </div>
+<!--Here starts Section Header-->
+  <div id="page">
+    <div class="loader" style="display: none;">
+      <div id="logo" class="circle">
+        <a href="#">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+          <span class="fourth"></span>
+        </a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="icon-container text-center">
-          <span class="icon-diamond"></span>
+
+    <header>
+      <div class="container-fluid">
+        <button class="burger">
+          <div class="patty_one"></div>
+          <div class="patty_two"></div>
+          <div class="patty_three"></div>
+        </button>
+
+        <ul class="welcome disguised list-unstyled">
+          <li>W</li>
+          <li>E</li>
+          <li>L</li>
+          <li>C</li>
+          <li>O</li>
+          <li>M</li>
+          <li>E</li>
+        </ul>
+
+        <div id="nuages-wrapper">
+          <div id="nuage-1"></div>
+          <div id="nuage-1_1"></div>
+          <div id="grad"></div>
+          <div id="nuage-2"></div>
+          <div id="nuage-3"></div>
+          <div id="nuage-4"></div>
+          <div id="nuage-5"></div>
+          <div id="nuage-6"></div>
+          <div id="nuage-7"></div>
+          <div id="nuage-8"></div>
         </div>
-        <h4 class="text-center">Desarrollo de plantillas</h4>
-        <p class="text-center">Desarrollo de plantillas a medida con HTML5 / CSS3/ JS </p>
-      </div>
-      <div class="col-md-3">
-        <div class="icon-container text-center">
-          <span class="icon-paperplane"></span>
-        </div>
-        <h4 class="text-center">Campañas de Mailing</h4>
-        <p class="text-center">Desarrollo de plantillas para campañas por correo</p>
-      </div>
-      <div class="col-md-3">
-        <div class="icon-container text-center">
-          <span class="icon-news"></span>
-        </div>
-        <h4 class="text-center">Full websites</h4>
-        <p class="text-center">Desarrollo websites completos y dinámico</p>
-      </div>
-      <div class="col-md-3">
-        <div class="icon-container text-center">
-          <span class="icon-heart"></span>
-        </div>
-        <h4 class="text-center">Aplicaciones Android</h4>
-        <p class="text-center">Desarrollo de Aplicaciones Android listas para subir a la tienda</p>
+
+    </header>
+<!--..................separator..................-->
+    <div class="circle">
+      <div>
+        <i class="fa fa-angle-fown aria-hidden="true"></i>
       </div>
     </div>
-  </section>       
+    <!--..................Here starts Section About Me..................-->
+    <section class="about">
+      <div class="container text-center">
+        <div class="">
+          <p>who I am</p>
+          <h3>-ABOUT ME-</h3>
+        </div>
+        <div class="row">
+          <p>
+            Hello, I’m Katherin Sihuin, a front end web developer from Laboratoria who loves creative design, navigate on pinterest and watch epic films on my spare time. In my ongoing quest for continuous learning, I’ve found this new passion for web development. The experience of teaching myself new concepts and learning front-end technologies has been both challenging and extremely rewarding. That is why I would like to introduce you to my portfolio and take a look at it. Thank you!
+          </p>
+          <a href="#">
+            <div class="resume-btn">
+                <div class="inner-box"><h4>MY RESUME</h4></div>
+            </div>
+          </a>
+        </div> 
+      </div>
+    </section>
+    <!--..................Here starts Section Interest..................
+    <section class="love">
+      <div class="container text-center">
+        <div>
+          
+        </div>
+      </div>
+    </section>-->
+    <!--..................Here starts Section Skills..................-->
+    <section class="skills">
+      <div class="container text-center">
+        <div class="skills-content"><p>what I know</p>
+          <h3>-MY SKILLS-</h3>
+          <div class="skills_softwares">
+            <div class="row" style="top: 0px; opacity: 1;"></div>
+            <div class="row" style="top: 45px; opacity: 1;"></div>
+            <div class="row" style="top: 90px; opacity: 1;"></div>
+            <div class="row" style="top: 135px; opacity: 1;"></div>
+            <div class="row" style="top: 180px; opacity: 1;"></div>
+            <div class="columns">
+                <div class="col">
+                    <div data-skills="95" style="height: 171px;"></div>
+                    <h1 style="margin-bottom: 20px; opacity: 1;">HTML5</h1>
+                </div>
+                <div class="col">
+                    <div data-skills="85" style="height: 153px;"></div>
+                    <h1 style="margin-bottom: 20px; opacity: 1;">CSS</h1>
+                </div>
+                <div class="col">
+                    <div data-skills="75" style="height: 135px;"></div>
+                    <h1 style="margin-bottom: 20px; opacity: 1;">JavaScript</h1>
+                </div>
+                <div class="col">
+                    <div data-skills="80" style="height: 144px;"></div>
+                    <h1 style="margin-bottom: 20px; opacity: 1;">jQuery</h1>
+                </div>
+                <div class="col">
+                    <div data-skills="85" style="height: 153px;"></div>
+                    <h1 style="margin-bottom: 20px; opacity: 1;">BootStrap</h1>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>  
+  <!--..................Here starts Section Portfolio..................-->
 
-<!--------------------Here starts Section Trabajos-------------------->    
-  <section id="Trabajos">
-    <div class="container-fluid text-center">  
-      <div class="row "> 
-        <div class="col-md-4 col-md-6 col-xs-12 imag">
-          <div class="ih-item square effect3">
-            <a href="#">
-              <div class="img"><img src="" alt="img"></div>
-              <div class="hidden-xs mask1"></div>
-              <div class="hidden-xs mask2"></div>
-              <div class="hidden-xs info">
-                <h3>Categoria</h3>
-                <p>Nuevo proyecto</p>
+    <section class="hero">
+      <div class="container text-center">
+       <div ID="portfolio">    
+    <div class="portfolio-tab">
+            
+           
+            
+            <div class="column">
+               
+                <div class="prow prow1">
+                    <div data-index="slide-1">
+                        <div class="thumb_nb" style="background-image: url(IMG/arton21.jpg?1481620824)"></div>
+                        <div class="thumb_color" style="background-image:url(IMG/artoff21.jpg?1481620828)"></div>
+                        <div class="description">
+                            <h1>DuPont™ Corian® </h1>
+                            
+                        </div>
+                        <div class="linkIcon"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+                 
+                
+                <div class="prow prow2">
+                    <div data-index="slide-2">
+                        <div class="thumb_nb" style="background-image: url(IMG/arton15.jpg?1473343728)"></div>
+                        <div class="thumb_color" style="background-image:url(IMG/artoff15.jpg?1473343728)"></div>
+                        <div class="description">
+                            <h1>Sandkescht  Lounge-Café Brasserie</h1>
+                            <p></p><p>Site Internet</p><p></p>
+                        </div>
+                        <div class="linkIcon"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+                 
+                               
+            </div> 
+          
+            
+            
+            <div class="column">
+               
+                <div class="prow prow1">
+                    <div data-index="slide-3">
+                        <div class="thumb_nb" style="background-image: url(IMG/arton18.jpg?1473343728)"></div>
+                        <div class="thumb_color" style="background-image:url(IMG/artoff18.jpg?1473343728)"></div>
+                        <div class="description">
+                            <h1>Menuiserie SG Concept</h1>
+                            
+                        </div>
+                        <div class="linkIcon"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+                 
+                
+                <div class="prow prow2">
+                    <div data-index="slide-4">
+                        <div class="thumb_nb" style="background-image: url(IMG/arton8.jpg?1473343728)"></div>
+                        <div class="thumb_color" style="background-image:url(IMG/artoff8.jpg?1473343728)"></div>
+                        <div class="description">
+                            <h1>the distroy - groupe pop/rock français</h1>
+                            <p></p><p>Site Internet</p><p></p>
+                        </div>
+                        <div class="linkIcon"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+                 
+                               
+            </div> 
+          
+            
+            
+            <div class="column">
+               
+                <div class="prow prow1">
+                    <div data-index="slide-5">
+                        <div class="thumb_nb" style="background-image: url(IMG/arton9.jpg?1473343728)"></div>
+                        <div class="thumb_color" style="background-image:url(IMG/artoff9.jpg?1473343728)"></div>
+                        <div class="description">
+                            <h1>laurent lempens photographe</h1>
+                            <p></p><p>Site internet</p><p></p>
+                        </div>
+                        <div class="linkIcon"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+                 
+                
+                <div class="prow prow2">
+                    <div data-index="slide-6">
+                        <div class="thumb_nb" style="background-image: url(IMG/arton12.jpg?1473343728)"></div>
+                        <div class="thumb_color" style="background-image:url(IMG/artoff12.jpg?1473343728)"></div>
+                        <div class="description">
+                            <h1>halloween 2013</h1>
+                            <p></p><p>Matte painting</p><p></p>
+                        </div>
+                        <div class="linkIcon"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+                 
+                               
+            </div> 
+          
+            
+            <div class="portfolio-bg-tab">
+                <div>
+                    <svg width="260" height="43">
+                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="260" height="43">
+                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="260" height="43">
+                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="260" height="43">
+                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="260" height="43">
+                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
+                    </svg>
+                </div>
+                <div>
+                    <svg width="260" height="43">
+                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
+                    </svg>
+                </div>
+            </div>
+    </div>
+</div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="fluid-container text-center">
+        <div class="w990px">
+          <div class="perspectiveH1">
+            <h1><span>contact</span></h1>
+          </div>
+          <div class="text1">
+            <div><p>Katherin Sihuin<br><strong>Arequipa, Perú</strong><br></p>
+              <div>You can reach me by email on
+                <a href="#"" class="spip_mail">nsihuin@gmail.com</a><br>Visit my github
+                <a target="_blank" href="https://github.com/katsihuin" class="spip_url spip_out auto" rel="external">https://github.com/katsihuin</a><br>
               </div>
-            </a>
-          </div> 
-        </div>
-        <div class="col-md-4 col-md-6 col-xs-12 imag">
-            <div class="ih-item square effect3"><a href="#">
-            <div class="img"><img src="" alt="img"></div>
-            <div class="hidden-xs mask1"></div>
-            <div class="hidden-xs mask2"></div>
-            <div class="hidden-xs info">
-              <h3>Categoria</h3>
-              <p>Nuevo proyecto</p>
-            </div></a></div> 
-        </div>
-        <div class="col-md-4 col-md-6 col-xs-12 imag">
-          <div class="ih-item square effect3">
-            <a href="#">
-              <div class="img naranja"><img src="" alt="img"></div>
-              <div class="hidden-xs mask1"></div>
-              <div class="hidden-xs mask2"></div>
-              <div class=" info"> 
-                <h3> Categoria</h3>
-                <p>Nuevo proyecto</p>
-              </div>
-            </a>
+            </div><div><br></div>
+          </div>    
+        </div>  
+        <div class="text2">
+          <div class="w990px thankyou">
+              <h1>Thank you for your visit</h1>
+          </div>
+          <div class="w990px ">
+            <p>Find me also in </p>
+                <span style="opacity: 0;">Linkedin</span>
+                <span style="opacity: 0;">Google Plus</span>
+                <span style="opacity: 0;">Facebook</span>
+            <ul class="list-unstyled" id="social-media">
+              <li>
+                <a  href="https://www.linkedin.com/in/nurania-sihuin-14a97389/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href=https://github.com/katsihuin><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              </li>
+            </ul>  
           </div>
         </div>    
       </div>
-      <div class="row ">
-        <div class="col-md-4 col-md-6 col-xs-12 imag">
-          <div class="ih-item square effect3">
-            <a href="#">
-              <div class="img"><img src="" alt="img"></div>
-              <div class="hidden-xs mask1"></div>
-              <div class=" hidden-xs mask2"></div>
-              <div class="hidden-xs info">
-                <h3>Categoria</h3>
-                <p>Nuevo proyecto</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4 col-md-6 col-xs-12 imag">
-          <div class="ih-item square effect3">
-            <a href="#">
-              <div class="img"><img src="" alt="img"></div>
-              <div class="hidden-xs mask1"></div>
-              <div class=" hidden-xs mask2"></div>
-              <div class="hidden-xs info">
-                <h3>Categoria</h3>
-                <p>Nuevo proyecto</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4 col-md-6 col-xs-12 imag">
-          <div class="ih-item square effect3">
-            <a href="#">
-              <div class="img naranja">
-                <img src="" alt="img">
-              </div>
-              <div class="hidden-xs mask1"></div>
-              <div class="hidden-xs mask2"></div>
-              <div class="info">
-                <h3>Categoria</h3>
-                <p>Nuevo proyecto</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-<!--------------------Here starts Section Project-------------------->
-  <section id="github" class="text-center">
-    <div class="container-fluid">
-      <p >Si quieres saber más de mi proyecto mira mi github</p>
-      <a href="">VER MI GITHUB</a>
-    </div>
-  </section>
-
-<!--------------------Here starts Section Footer-------------------->
-  <footer class="text-center pie" id="Contacto">
-    <div class="container-fluid ">
-      <h2>CONTÁCTAME</h2>
-      <hr>
-      <p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que has visto? Genial!, dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</p>
-      <div class="text-center">
-        <div class="col-md-6 col-md-12 col-xs-12">
-          <i class="fa fa-phone"></i>
-          <p>999-334-858</p>
-        </div>
-        <div class="col-md-6 col-md-12 col-xs-12">
-          <i class="fa fa-envelope-o"></i>
-          <a class="email" href=""><p>Katherin.s.c@laboratoria.la</p></a>
-        </div> 
-      </div> 
-    </div>
-  </footer>
-
+  </div>
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
   <script src="js/bootstrap.min.js"></script>  
