@@ -9,12 +9,9 @@ body {
     padding: 0;
 }
 
-h2 {
-    
-}
 
 h5 {
-   font-family: 'Pacifico', cursive;
+   font-family: $h5-font;
     font-size: 20px;
     font-weight: bold;
 }
@@ -23,10 +20,7 @@ h5 {
 /*............................................................................................. saludo */
 
 .welcome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include centerer;
 }
 .portfolio1 {
     position: absolute;
@@ -365,10 +359,7 @@ h5 {
 /*--------------------------------------------------------------------------------------------------------LOADER*/
 
 .loader {
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    @include centerer;
 }
 
 .circle {
@@ -479,10 +470,7 @@ h5 {
 
 /*--------------------------------------------------------------------------------------------------------RESUME BTN */
 .resume-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include centerer;
     width: 150px;
     height: 40px;
     background: black;
@@ -558,10 +546,7 @@ h5 {
 }
 
 .inner-box h4 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    @include centerer;
     text-align: center;
     color: white;
     z-index: 100;
