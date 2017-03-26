@@ -22,12 +22,25 @@
     }
 }
 
-@mixin animation ($name, $duration, $timing-function, $iteration-count) {
-	-webkit-animation: $name, $duration, $timing-function, $iteration-count;
-    -moz-animation: $name, $duration, $timing-function, $iteration-count;
-    -o-animation: $name, $duration, $timing-function, $iteration-count;
-	animation: $name, $duration, $timing-function, $iteration-count;
+@mixin animation ($name, $duration, $timing-function:linear, $iteration-count:infinite) {
+    -webkit-animation-name: $name;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-timing-function: $timing-function;
+    -webkit-animation-iteration-count: $iteration-count;
+
+    -moz-animation-name: $name;
+    -moz-animation-duration: $duration;
+    -moz-animation-timing-function: $timing-function;
+    -moz-animation-iteration-count: $iteration-count;
+
+    -o-animation-name: $name;
+    -o-animation-duration: $duration;
+    -o-animation-timing-function: $timing-function;
+    -o-animation-iteration-count: $iteration-count;
+
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing-function;
+    animation-iteration-count: $iteration-count;
 }
-
-
 

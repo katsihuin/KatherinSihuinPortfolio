@@ -147,10 +147,22 @@ h5 {
   background-position: 0px center;
   opacity: .5;
   background-size: contain;
-  -webkit-animation: cloud_0, 150s, linear, infinite;
-  -moz-animation: cloud_0, 150s, linear, infinite;
-  -o-animation: cloud_0, 150s, linear, infinite;
-  animation: cloud_0, 150s, linear, infinite;
+  -webkit-animation-name: cloud_0;
+  -webkit-animation-duration: 150s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_0;
+  -moz-animation-duration: 150s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_0;
+  -o-animation-duration: 150s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_0;
+  animation-duration: 150s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 /* line 101, ../scss/base/_base.scss */
@@ -173,10 +185,22 @@ h5 {
   opacity: .3;
   top: 0px;
   left: 5vw;
-  -webkit-animation: cloud_2, 200s, linear, infinite;
-  -moz-animation: cloud_2, 200s, linear, infinite;
-  -o-animation: cloud_2, 200s, linear, infinite;
-  animation: cloud_2, 200s, linear, infinite;
+  -webkit-animation-name: cloud_2;
+  -webkit-animation-duration: 200s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_2;
+  -moz-animation-duration: 200s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_2;
+  -o-animation-duration: 200s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_2;
+  animation-duration: 200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes cloud_2 {
@@ -274,10 +298,22 @@ h5 {
   height: 291px;
   bottom: 0px;
   left: 0px;
-  -webkit-animation: slow-left-to-right, 300s, linear, infinite;
-  -moz-animation: slow-left-to-right, 300s, linear, infinite;
-  -o-animation: slow-left-to-right, 300s, linear, infinite;
-  animation: slow-left-to-right, 300s, linear, infinite;
+  -webkit-animation-name: slow-left-to-right;
+  -webkit-animation-duration: 300s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: slow-left-to-right;
+  -moz-animation-duration: 300s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: slow-left-to-right;
+  -o-animation-duration: 300s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: slow-left-to-right;
+  animation-duration: 300s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes slow-left-to-right {
@@ -376,10 +412,22 @@ h5 {
   opacity: 1;
   bottom: -20px;
   right: 0px;
-  -webkit-animation: cloud_4, 400s, linear, infinite;
-  -moz-animation: cloud_4, 400s, linear, infinite;
-  -o-animation: cloud_4, 400s, linear, infinite;
-  animation: cloud_4, 400s, linear, infinite;
+  -webkit-animation-name: cloud_4;
+  -webkit-animation-duration: 400s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_4;
+  -moz-animation-duration: 400s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_4;
+  -o-animation-duration: 400s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_4;
+  animation-duration: 400s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes cloud_4 {
@@ -482,10 +530,22 @@ h5 {
   bottom: -100px;
   right: 0px;
   opacity: .5;
-  -webkit-animation: slow-right-to-left, 200s, linear, infinite;
-  -moz-animation: slow-right-to-left, 200s, linear, infinite;
-  -o-animation: slow-right-to-left, 200s, linear, infinite;
-  animation: slow-right-to-left, 200s, linear, infinite;
+  -webkit-animation-name: slow-right-to-left;
+  -webkit-animation-duration: 200s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: slow-right-to-left;
+  -moz-animation-duration: 200s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: slow-right-to-left;
+  -o-animation-duration: 200s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: slow-right-to-left;
+  animation-duration: 200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes slow-right-to-left {
@@ -588,10 +648,22 @@ h5 {
   top: -115px;
   left: 60vw;
   opacity: .3;
-  -webkit-animation: cloud_8, 400s, linear, infinite;
-  -moz-animation: cloud_8, 400s, linear, infinite;
-  -o-animation: cloud_8, 400s, linear, infinite;
-  animation: cloud_8, 400s, linear, infinite;
+  -webkit-animation-name: cloud_8;
+  -webkit-animation-duration: 400s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_8;
+  -moz-animation-duration: 400s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_8;
+  -o-animation-duration: 400s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_8;
+  animation-duration: 400s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes cloud_8 {
@@ -1002,490 +1074,13 @@ h5 {
   opacity: 0;
 }
 
-/*--------------------------------------------------------------------------------------------------------PORTFOLIO*/
 /* line 504, ../scss/base/_base.scss */
-#portfolio {
-  margin-top: 20px;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-/* line 511, ../scss/base/_base.scss */
-#portfolio > .portfolio-nav {
-  margin-top: 50px;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  align-items: center;
-  -webkit-align-items: center;
-}
-
-/* line 523, ../scss/base/_base.scss */
-#portfolio > .portfolio-nav > span {
-  color: #9F8764;
-  font-size: 21px;
-  font-size: 2.1rem;
-  letter-spacing: 0.6rem;
-  padding: 5px 40px;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-transition: all 650ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: all 650ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -ms-transition: all 650ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -o-transition: all 650ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 650ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-/* line 537, ../scss/base/_base.scss */
-#portfolio > .portfolio-nav.on > span {
-  background-color: #1D1D1D;
-  border-right: 1px solid #9f8764;
-  padding: 5px 110px;
-  cursor: pointer;
-}
-
-/* line 543, ../scss/base/_base.scss */
-#portfolio > .portfolio-nav.on > span:hover {
-  background-color: #9f8764;
-  color: #1D1D1D;
-}
-
-/* line 547, ../scss/base/_base.scss */
-#portfolio > .portfolio-nav.on > span:last-child {
-  border-right: none;
-}
-
-/* line 550, ../scss/base/_base.scss */
-#portfolio > .portfolio-nav.on img {
-  display: none;
-}
-
-/* line 553, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab {
-  margin-left: 20px;
-  margin-top: 80px;
-  -webkit-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -ms-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -o-transition: all 2050ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 2050ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-/* line 562, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab.on {
-  opacity: 0;
-}
-
-/* line 565, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column {
-  float: left;
-  margin-left: -13px;
-  position: relative;
-  z-index: 2;
-  -webkit-perspective: 900px;
-  -moz-perspective: 900px;
-  -ms-perspective: 900px;
-  perspective: 900px;
-  transform-style: preserve-3d;
-}
-
-/* line 576, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow {
-  -webkit-perspective: 900px;
-  -moz-perspective: 900px;
-  -ms-perspective: 900px;
-  perspective: 900px;
-  transform-style: flat;
-  padding: 10px;
-}
-
-/* FIX BUG CHROME */
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 587, ../scss/base/_base.scss */
-  #portfolio > .portfolio-tab > .column > .prow {
-    -webkit-perspective: none;
-    -moz-perspective: none;
-    -ms-perspective: none;
-    perspective: none;
-    padding: 0 10px;
-  }
-}
-/* line 595, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div {
-  width: 315px;
-  height: 270px;
-  margin-bottom: 5px;
-  background-color: #ccc;
-  overflow: hidden;
-  position: relative;
-  transform-style: flat;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center, center center;
-  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0);
-  -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -ms-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -o-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-/* line 616, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow .thumb_nb, #portfolio > .portfolio-tab > .column > .prow .thumb_color {
-  width: 315px;
-  height: 270px;
-  background-color: #000;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center, center center;
-  -webkit-transition: all 850ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -moz-transition: all 850ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -ms-transition: all 850ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -o-transition: all 850ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: all 850ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 8;
-}
-
-/* line 633, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow .thumb_nb {
-  z-index: 9;
-}
-
-/* line 636, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow.on > div > .thumb_nb {
-  opacity: 0;
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  transform: scale(1.15);
-}
-
-/* line 644, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow .shadow {
-  width: 315px;
-  height: 270px;
-  position: absolute;
-  z-index: 10;
-  left: 0;
-  top: 0;
-}
-
-/* line 652, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(1) > .prow1 > div {
-  -webkit-transform: rotateY(-20deg);
-  -moz-transform: rotateY(-20deg);
-  -ms-transform: rotateY(-20deg);
-  -o-transform: rotateY(-20deg);
-  transform: rotateY(-20deg);
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -ms-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-/* line 664, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(1) > .prow2 > div {
-  -webkit-transform: rotateY(20deg);
-  -moz-transform: rotateY(20deg);
-  -ms-transform: rotateY(20deg);
-  -o-transform: rotateY(20deg);
-  transform: rotateY(20deg);
-  -webkit-transform-origin: right center;
-  -moz-transform-origin: right center;
-  -ms-transform-origin: right center;
-  -o-transform-origin: right center;
-  transform-origin: right center;
-}
-
-/* line 676, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(2) > .prow1 > div {
-  -webkit-transform: rotateY(20deg);
-  -moz-transform: rotateY(20deg);
-  -ms-transform: rotateY(20deg);
-  -o-transform: rotateY(20deg);
-  transform: rotateY(20deg);
-  -webkit-transform-origin: right center;
-  -moz-transform-origin: right center;
-  -ms-transform-origin: right center;
-  -o-transform-origin: right center;
-  transform-origin: right center;
-}
-
-/* line 688, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(2) > .prow2 > div {
-  -webkit-transform: rotateY(-20deg);
-  -moz-transform: rotateY(-20deg);
-  -ms-transform: rotateY(-20deg);
-  -o-transform: rotateY(-20deg);
-  transform: rotateY(-20deg);
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -ms-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-/* line 700, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(3) > .prow1 > div {
-  -webkit-transform: rotateY(-20deg);
-  -moz-transform: rotateY(-20deg);
-  -ms-transform: rotateY(-20deg);
-  -o-transform: rotateY(-20deg);
-  transform: rotateY(-20deg);
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -ms-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
-}
-
-/* line 712, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(3) > .prow2 > div {
-  -webkit-transform: rotateY(20deg);
-  -moz-transform: rotateY(20deg);
-  -ms-transform: rotateY(20deg);
-  -o-transform: rotateY(20deg);
-  transform: rotateY(20deg);
-  -webkit-transform-origin: right center;
-  -moz-transform-origin: right center;
-  -ms-transform-origin: right center;
-  -o-transform-origin: right center;
-  transform-origin: right center;
-}
-
-/* line 724, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(1) > .prow1 > div > .shadow, #portfolio > .portfolio-tab > .column:nth-child(2) > .prow2 > div > .shadow, #portfolio > .portfolio-tab > .column:nth-child(3) > .prow1 > div > .shadow {
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-/* line 732, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column:nth-child(1) > .prow2 > div > .shadow, #portfolio > .portfolio-tab > .column:nth-child(2) > .prow1 > div > .shadow, #portfolio > .portfolio-tab > .column:nth-child(3) > .prow2 > div > .shadow {
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-/* line 740, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div > .shadow {
-  -webkit-transition: all 650ms cubic-bezier(0.165, 0.84, 0.44, 1);
-  -moz-transition: all 650ms cubic-bezier(0.165, 0.84, 0.44, 1);
-  -ms-transition: all 650ms cubic-bezier(0.165, 0.84, 0.44, 1);
-  -o-transition: all 650ms cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 650ms cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-/* line 747, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div > .shadow {
-  opacity: 1;
-}
-
-/* line 750, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow.on > div > .shadow {
-  opacity: 0;
-}
-
-/* line 753, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow.on > div {
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-}
-
-/* line 760, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div > .description {
-  position: absolute;
-  z-index: 20;
-  bottom: -80px;
-  left: 0;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  padding: 20px 5px;
-  background-color: rgba(0, 0, 0, 0);
-  color: #fff;
-  -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 240ms;
-  -moz-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 240ms;
-  -ms-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 240ms;
-  -o-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 240ms;
-  transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 240ms;
-}
-
-/* line 777, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow.on > div > .description {
-  bottom: 0;
-}
-
-/* line 780, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div > .description > h1 {
-  width: 100%;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  letter-spacing: 0.12rem;
-  font-size: 15px;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-/* line 790, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div > .description > p {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 794, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow > div > .linkIcon {
-  position: absolute;
-  z-index: 20;
-  top: 20%;
-  left: 50%;
-  margin-left: -44px;
-  width: 88px;
-  height: 88px;
-  background-image: url(../WD_IMAGES/_LUXEMBOURG/luxembourg-link-icon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
-  -moz-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
-  -ms-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
-  -o-transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
-  transition: all 450ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
-  -webkit-transform: scale(0) rotate(90deg);
-  -moz-transform: scale(0) rotate(90deg);
-  -ms-transform: scale(0) rotate(90deg);
-  -o-transform: scale(0) rotate(90deg);
-  transform: scale(0) rotate(90deg);
-  opacity: 0;
-}
-
-/* line 817, ../scss/base/_base.scss */
-#portfolio > .portfolio-tab > .column > .prow.on > div > .linkIcon {
-  -webkit-transform: scale(0.75) rotate(0deg);
-  -moz-transform: scale(0.75) rotate(0deg);
-  -ms-transform: scale(0.75) rotate(0deg);
-  -o-transform: scale(0.75) rotate(0deg);
-  transform: scale(0.75) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 825, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab {
-  position: relative;
-  height: 645px;
-}
-
-/*FIX BUG CHROME*/
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 832, ../scss/base/_base.scss */
-  #portfolio .portfolio-bg-tab {
-    top: -18px;
-  }
-}
-/* line 836, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div {
-  position: absolute;
-  z-index: 1;
-}
-
-/* line 840, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div:nth-child(1) {
-  left: -3px;
-  top: -15px;
-}
-
-/* line 844, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div:nth-child(2) {
-  left: 374px;
-  top: -15px;
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-
-/* line 853, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div:nth-child(3) {
-  left: 641px;
-  top: -15px;
-}
-
-/* line 857, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div:nth-child(4) {
-  left: 52px;
-  bottom: 43px;
-  -webkit-transform: rotateX(180deg) rotateY(180deg);
-  -moz-transform: rotateX(180deg) rotateY(180deg);
-  -ms-transform: rotateX(180deg) rotateY(180deg);
-  -o-transform: rotateX(180deg) rotateY(180deg);
-  transform: rotateX(180deg) rotateY(180deg);
-}
-
-/* line 866, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div:nth-child(5) {
-  left: 319px;
-  bottom: 43px;
-  -webkit-transform: rotateX(180deg);
-  -moz-transform: rotateX(180deg);
-  -ms-transform: rotateX(180deg);
-  -o-transform: rotateX(180deg);
-  transform: rotateX(180deg);
-}
-
-/* line 875, ../scss/base/_base.scss */
-#portfolio .portfolio-bg-tab > div:nth-child(6) {
-  right: 14px;
-  bottom: 43px;
-  -webkit-transform: rotateX(180deg) rotateY(180deg);
-  -moz-transform: rotateX(180deg) rotateY(180deg);
-  -ms-transform: rotateX(180deg) rotateY(180deg);
-  -o-transform: rotateX(180deg) rotateY(180deg);
-  transform: rotateX(180deg) rotateY(180deg);
-}
-
-/*FIX BUG CHROME*/
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 887, ../scss/base/_base.scss */
-  #portfolio .portfolio-bg-tab > div:nth-child(1), #portfolio .portfolio-bg-tab > div:nth-child(2), #portfolio .portfolio-bg-tab > div:nth-child(3) {
-    top: -5px;
-  }
-
-  /* line 890, ../scss/base/_base.scss */
-  #portfolio .portfolio-bg-tab > div:nth-child(4), #portfolio .portfolio-bg-tab > div:nth-child(5), #portfolio .portfolio-bg-tab > div:nth-child(6) {
-    bottom: 55px;
-  }
-}
-/* line 895, ../scss/base/_base.scss */
 .w990px {
   padding-bottom: 0;
   background-color: #C3A2AB;
 }
 
-/* line 900, ../scss/base/_base.scss */
+/* line 509, ../scss/base/_base.scss */
 .text1 {
   color: #303030;
   font-size: 2rem;
@@ -1494,7 +1089,7 @@ h5 {
   padding: 110px 150px 160px 150px;
 }
 
-/* line 907, ../scss/base/_base.scss */
+/* line 516, ../scss/base/_base.scss */
 .text1 strong {
   display: block;
   font-size: 14px;
@@ -1503,37 +1098,37 @@ h5 {
   padding: 0;
 }
 
-/* line 914, ../scss/base/_base.scss */
+/* line 523, ../scss/base/_base.scss */
 .text1 a {
   color: #3f8093;
   display: inline-block;
   text-decoration: none;
 }
 
-/* line 919, ../scss/base/_base.scss */
+/* line 528, ../scss/base/_base.scss */
 .text1 a:hover {
   text-decoration: underline;
 }
 
-/* line 922, ../scss/base/_base.scss */
+/* line 531, ../scss/base/_base.scss */
 .text1 a[rel='external'] {
   color: #ca0a60;
 }
 
-/* line 925, ../scss/base/_base.scss */
+/* line 534, ../scss/base/_base.scss */
 .text2 {
   background-color: #4A597A;
   margin-top: -80px;
 }
 
-/* line 929, ../scss/base/_base.scss */
+/* line 538, ../scss/base/_base.scss */
 .text2 > .w990px.thankyou {
   padding: 0;
   position: relative;
   top: -64px;
 }
 
-/* line 934, ../scss/base/_base.scss */
+/* line 543, ../scss/base/_base.scss */
 .text2 > .w990px.thankyou > h1 {
   color: #fff;
   font-size: 60px;
@@ -1545,7 +1140,7 @@ h5 {
   letter-spacing: 0.15em;
 }
 
-/* line 944, ../scss/base/_base.scss */
+/* line 553, ../scss/base/_base.scss */
 .text2 > .w990px {
   color: #dcdfe0;
   font-size: 15px;
@@ -1555,14 +1150,14 @@ h5 {
   background: #4A597A;
 }
 
-/* line 952, ../scss/base/_base.scss */
+/* line 561, ../scss/base/_base.scss */
 .text2 > .w990px > p > span {
   opacity: 0;
   position: absolute;
   margin-left: 4px;
 }
 
-/* line 958, ../scss/base/_base.scss */
+/* line 567, ../scss/base/_base.scss */
 .thankyou {
   text-transform: uppercase;
   margin-bottom: 0;
