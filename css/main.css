@@ -1163,6 +1163,79 @@ h5 {
   margin-bottom: 0;
 }
 
+/* line 573, ../scss/base/_base.scss */
+#profile-wrap {
+  position: absolute;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  margin-top: -320px;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 460px;
+  width: 360px;
+  z-index: 4;
+}
+
+/* line 588, ../scss/base/_base.scss */
+.profile-overlay {
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  width: 280px;
+  height: 280px;
+  background: url(http://icons.iconarchive.com/icons/fasticon/angry-birds/128/yellow-bird-icon.png) 0px -30px;
+  background-size: 0%;
+  box-shadow: 0 0 10px black;
+}
+
+/* line 609, ../scss/base/_base.scss */
+.profile-image {
+  position: absolute;
+  z-index: 0;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  height: 280px;
+  width: 280px;
+  background: url(http://icons.iconarchive.com/icons/fasticon/angry-birds/128/red-bird-icon.png) 0px -30px;
+  background-size: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+/* line 639, ../scss/base/_base.scss */
+#about-wrapper {
+  margin: 0 auto;
+}
+
 /* line 1, ../scss/layout/_header.scss */
 header {
   height: 100vh;
