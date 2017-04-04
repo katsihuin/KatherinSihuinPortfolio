@@ -1,39 +1,53 @@
-/* Burger Menu button */
+
+/*--------------------------------------------------------------------------------------------------------BURGER MENU */
+
+.main-nav {
+  background:transparent;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.menu {
+  margin: 0 60px;
+  padding: 0;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu-item {
+  margin:0 15px;
+}
+
+.menu-link{
+  color: #9109A6;
+  text-decoration:none;
+}
+
 .burger {
-    position: absolute;
-    z-index: 1000;
-    right: 15px;
-    top: 15px;
+    z-index: 3000;
     cursor: pointer;
-    display: block;
-    margin: 1em 0 0 1em;
+    margin: 0 -20px;
     background: transparent;
     outline: none;
     transition: .5s;
+    position: fixed;
 }
 
 .burger div {
-    position: relative;
     height: 4px;
-    background-color: white;
+    background-color: #9109A6;
     margin: 5px 0;
     border-radius: 25px;
-    transition: .5s;
+    transition: all .5s;
     transform-origin: center;
+    z-index: 3000;
 }
 
-.burger:hover div:nth-child(1){
-    transform: translateY(9px) rotate(-45deg);
-}
 
-.burger:hover div:nth-child(2){
-     opacity: 0;
-}
-
-.burger:hover div:nth-child(3){
-    transform: translateY(-9px) rotate(45deg);
-}
-
+/*--------------------------------------------------------------------------------------------------------BURGER MENU ANIMATION */
 .patty_one {
     width: 30px;
 }
@@ -50,46 +64,23 @@
     width: 30px;
 }
 
-.toggle-nav {
-  margin: 1em;
-  float: right;
-  color: #f39;
-}
-.toggle-nav:hover {
-  color: #cc297a;
-}
-
-.nav-wrap {
-  overflow: hidden;
-}
-
-.menu {
-  margin: 1em 0 0;
-  float: right;
-  visibility: hidden;
-  position: relative;
-  right: -100%;
-  transition-duration: 3s;
-  -webkit-transition-duration: 3s;
-}
-.menu.active {
+.show-menu .menu {
   visibility: visible;
-  right: 0;
-  transition-duration: 1s;
-  -webkit-transition-duration: 1s;
+  opacity:1;
 }
-.menu div {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+
+.show-menu .patty_one{
+    transform: translateY(9px) rotate(-45deg);
+    width: 30px;
 }
-.menu div li {
-  margin: 0.5em;
-  padding: 0;
-  display: inline-block;
-  text-transform: uppercase;
-  font-family: Helvetica, sans-serif;
-  color: #f39;
+
+.show-menu .patty_two{
+     opacity: 0;
+}
+
+.show-menu .patty_three{
+    transform: translateY(-9px) rotate(45deg);
+    width: 30px;
 }
 
 /*--------------------------------------------------------------------------------------------------------RESUME BTN */

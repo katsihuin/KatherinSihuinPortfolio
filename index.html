@@ -13,7 +13,10 @@
 </head>
 
 <body>
-<!--Here starts Section Header-->
+ <div id="page" class="fluid-container">
+<header id="home" class="js-scroll-step cloud-box">
+      
+<!--Here starts Section Header
   <div id="page" class="fluid-container ">
     <div class="loader" style="display: none;">
       <div id="logo" class="circle">
@@ -26,13 +29,22 @@
       </div>
     </div>
 
-    <header id="A" class="js-scroll-step cloud-box">
+    <header id="home" class="js-scroll-step cloud-box">
       <div class="fluid-container ">
         <a class="burger">
           <div class="patty_one"></div>
           <div class="patty_two"></div>
           <div class="patty_three"></div>
         </a>
+
+       <nav>
+          <ul id="mainNav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#B">Work</a></li>
+            <li><a href="#C">About</a></li>
+            <li><a href="#D">Contact</a></li>    
+          </ul>
+        </nav>
 
         <a href="#" class="toggle-nav js-nav"><i class="fa fa-bars fa-2x"></i></a>
         <div class="nav-wrap">
@@ -43,17 +55,23 @@
               <li>pluto</li>
             </ul>
           </nav>
-        </div>
+        </div>-->
 
-        <nav>
-          <ul id="mainNav">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#B">Work</a></li>
-            <li><a href="#C">About</a></li>
-            <li><a href="#D">Contact</a></li>    
+        <nav id="main-nav" class="main-nav">
+          <ul class="menu list-unstyled">
+            <li class="active menu-item"><a href="#home" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+            <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+            <li class="menu-item"><a href="#portfolio" class="menu-link">Portfolio</a></li> 
+            <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>     
           </ul>
+          <div class="burger">
+            <div class="patty_one"></div>
+            <div class="patty_two"></div>
+            <div class="patty_three"></div>
+          </div>
         </nav>
-       
+
 
         <!--contenedor de hot air balloon-->
         <div class="fore-pier"></div>
@@ -84,7 +102,7 @@
           <div id="cloud-7"></div>
           <div id="cloud-8"></div>
         </div>
-      </div>
+      
     </header>
 <!--..................separator..................-->
     <div class="circle">
@@ -93,7 +111,7 @@
       </div>
     </div>
     <!--..................Here starts Section About Me..................-->
-    <section id="B" class="js-scroll-step about"> 
+    <section id="about" class="js-scroll-step about"> 
       <div class="container text-center">
         <article> 
           <div class="row">
@@ -103,8 +121,8 @@
           <div class="row">
             <div class="col-md-12">
               <div class="col-md-2">
-                <h4>FULL NAME</h4>
-                <p>Katherin Sihuin</p>
+                <h4></h4>
+                <p></p>
               </div>
 
               <div class="col-md-8">
@@ -116,8 +134,8 @@
               </div>
 
               <div class="col-md-2">
-                <h4>FULL NAME</h4>
-                <p>Katherin Sihuin</p>
+                <h4></h4>
+                <p></p>
               </div>
             </div>
           </div>
@@ -146,7 +164,7 @@
       </div>
     </section>-->
     <!--..................Here starts Section Skills..................-->
-    <section id="C" class="js-scroll-step skills">
+    <section id="skills" class="js-scroll-step skills">
       <div class="container text-center">
         <div class="skills-content"><h5>what I know</h5>
           <h2>- MY SKILLS -</h2>
@@ -184,7 +202,7 @@
     </section>  
   <!--..................Here starts Section Portfolio..................-->
 
-    <section id="D" class="js-scroll-step portfolio">
+    <section id="portfolio" class="js-scroll-step portfolio">
       <div class="container text-center">
         <article> 
           <h5>Some works</h5> 
@@ -192,25 +210,99 @@
           <hr>
           <div class="clothes-pics">
             <div class="row img-row">
-              <figure class="col-xs-4"><img src="/images/model1.jpg">
-                <figcaption>BlackBird Sweater - <strong>$135</strong></figcaption>
+              <figure class="col-xs-4 "><img src="img/work6.png" class="img-responsive img-portfolio">
+                <figcaption>Spring Came - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
               </figure>
-              <figure class="col-xs-4"><img src="/images/model2.jpg">
-                <figcaption>BlackBird Trousers - <strong>$135</strong></figcaption>
+              <figure class="col-xs-4"><img src="img/work2.png" class="img-responsive img-portfolio">
+                <figcaption>Coder Girl- 
+                  <strong>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </strong>
+                </figcaption>
               </figure>
-              <figure class="col-xs-4"><img src="/images/model3.jpg">
-                <figcaption>BlackBird Jacket - <strong>$135</strong></figcaption>
+              <figure class="col-xs-4"><img src="img/work1.png" class="img-responsive img-portfolio">
+                <figcaption>Creamy Theme - 
+                  <strong>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </strong>
+                </figcaption>
               </figure>
             </div>
             <div class="row img-row">
-              <figure class="col-xs-4"><img src="/images/model2.jpg">
-                <figcaption>BlackBird Trousers - <strong>$135</strong></figcaption>
+              <figure class="col-xs-4"><img src="img/work8.png" class="img-responsive img-portfolio">
+                <figcaption>Danza Arte - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
               </figure>
-              <figure class="col-xs-4"><img src="/images/model3.jpg">
-                <figcaption>BlackBird Jacket - <strong>$135</strong></figcaption>
+              <figure class="col-xs-4"><img src="img/work12.png" class="img-responsive img-portfolio">
+                <figcaption>User360 - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
               </figure>
-              <figure class="col-xs-4"><img src="/images/model1.jpg">
-                <figcaption>BlackBird Sweater - <strong>$135</strong></figcaption>
+              <figure class="col-xs-4"><img src="img/work3.png" class="img-responsive img-portfolio">
+                <figcaption>La República - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="row img-row">
+              <figure class="col-xs-4"><img src="img/work7.png" class="img-responsive img-portfolio">
+                <figcaption>Bicis Locas -  
+                  <strong>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </strong>
+                </figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="img/work13.png" class="img-responsive img-portfolio">
+                <figcaption>WhatsApp Web - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="img/work11.png" class="img-responsive img-portfolio">
+                <figcaption>Lyft App - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
               </figure>
             </div>
           </div>
@@ -219,7 +311,7 @@
     </section>
 
   <!--..................Here starts Footer..................-->
-    <footer id="E" class="js-scroll-step">
+    <footer id="contact" class="js-scroll-step">
       <div class="fluid-container text-center footer-stuff">
         <div class="footer-stuff">
           <div class="perspectiveH1">
@@ -260,6 +352,15 @@
     </footer>
 
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+  <feBlend in="SourceGraphic" in2="goo" />
+</filter>
+  </defs>
+</svg>
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
   <script src="js/menu-nav-scroll.js"></script>

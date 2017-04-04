@@ -16,9 +16,13 @@ h5 {
     font-weight: bold;
 }
 
+.fluid-container {
+  filter: url('#goo');
+}
+
 .about, .portfolio {
     position: relative;
-    background: white;
+    background-color: #F9F8F3; 
     overflow: hidden;
     z-index: 15;
 }
@@ -56,7 +60,6 @@ h5 {
   margin-bottom: 50px;
   border-radius: 50%;
   position: relative; 
- 
 }
   
 .large-window .window-tint {
@@ -210,27 +213,43 @@ h5 {
 // Model Grid
 
 .clothes-pics {
-  margin-bottom: 100px; }
-  .clothes-pics figure {
-    margin-bottom: 20px;
-    position: relative;
-    opacity: 0;
-    transform: translateX(30px);
-    transition: all 0.4s ease-in-out;
-    overflow: hidden;
-    cursor: pointer; }
-    .clothes-pics figure.is-showing {
+  margin-bottom: 100px; 
+}
+
+.clothes-pics figure {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+  width: 223px;
+  height: 150px; 
+}
+
+.clothes-pics figure.is-showing {
       opacity: 1;
-      transform: translateX(0px); }
-    .clothes-pics figure img {
+      transform: translateX(0px); 
+}
+    
+.clothes-pics figure img {
       display: block;
       transform: scale(1);
-      transition: all 0.3s ease-in-out; }
-    .clothes-pics figure:hover figcaption {
-      left: 0%; }
-    .clothes-pics figure:hover img {
-      transform: scale(1.1); }
-  .clothes-pics figcaption {
+      transition: all 0.3s ease-in-out; 
+      width: 100%;
+    height: auto;
+}
+
+.clothes-pics figure:hover figcaption {
+      left: 0%; 
+}
+    
+.clothes-pics figure:hover img {
+      transform: scale(1.1); 
+}
+  
+.clothes-pics figcaption {
     position: absolute;
     bottom: 10px;
     left: -100%;
@@ -238,10 +257,8 @@ h5 {
     color: white;
     padding: 2px 8px;
     font-size: 11px;
-    transition: all 0.3s ease-in-out; }
-
-
-
+    transition: all 0.3s ease-in-out; 
+}
 
 .thankyou {
     text-transform: uppercase;
@@ -249,71 +266,3 @@ h5 {
 }
 
 
-
-.Quick-navigation {
-  position: fixed;
-  z-index: 1;
-  margin: 0;
-  top: 50%;
-  right: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.Quick-navigation-item {
-  color: rgba(0,0,0,0.4);
-  text-decoration: none;
-  font-size: 1.3em;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  padding: 0.5em;
-  display: block;
-}
-.Quick-navigation-item:hover,
-.Quick-navigation-item.current {
-  color: #fff;
-}
-.Scroll-progress-indicator {
-  will-change: opacity, transform;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  left: -10px;
-  border-radius: 2px;
-  position: absolute;
-  top: 50%;
-  opacity: 0;
-  padding: 2em;
-  -webkit-transform: translateX(200%) translateY(-50%);
-          transform: translateX(200%) translateY(-50%);
-  background-color: rgba(0,0,0,0.1);
-}
-.Scroll-progress-indicator.visible {
-  -webkit-transform: translateX(-100%) translateY(-50%);
-          transform: translateX(-100%) translateY(-50%);
-  opacity: 1;
-}
-
-.Scroll-to-top {
-  position: fixed;
-  right: 20px;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.2);
-  border: none;
-  color: rgba(255,255,255,0.5);
-  font-size: 1.5rem;
-  padding: 0.5em;
-  cursor: pointer;
-  opacity: 0;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  outline: none;
-}
-.Scroll-to-top.visible {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-.Scroll-to-top:hover {
-  color: rgba(255,255,255,0.9);
-}
