@@ -6,6 +6,12 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin center-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @mixin keyframes( $animationName )
 {
     @-webkit-keyframes $animationName {

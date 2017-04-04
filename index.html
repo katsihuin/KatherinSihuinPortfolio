@@ -14,7 +14,7 @@
 
 <body>
 <!--Here starts Section Header-->
-  <div id="page">
+  <div id="page" class="fluid-container ">
     <div class="loader" style="display: none;">
       <div id="logo" class="circle">
         <a href="#" type="button">
@@ -26,26 +26,49 @@
       </div>
     </div>
 
-    <header>
-      <div class="container-fluid">
+    <header id="A" class="js-scroll-step cloud-box">
+      <div class="fluid-container ">
         <a class="burger">
           <div class="patty_one"></div>
           <div class="patty_two"></div>
           <div class="patty_three"></div>
         </a>
 
-        <ul class="welcome disguised list-unstyled">
-          <li>W</li>
-          <li>E</li>
-          <li>L</li>
-          <li>C</li>
-          <li>O</li>
-          <li>M</li>
-          <li>E</li>
-        </ul>
-        
-        <div>
+        <a href="#" class="toggle-nav js-nav"><i class="fa fa-bars fa-2x"></i></a>
+        <div class="nav-wrap">
+          <nav class="menu">
+            <ul>
+              <li>earth</li>
+              <li>venus</li>
+              <li>pluto</li>
+            </ul>
+          </nav>
+        </div>
+
+        <nav>
+          <ul id="mainNav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#B">Work</a></li>
+            <li><a href="#C">About</a></li>
+            <li><a href="#D">Contact</a></li>    
+          </ul>
+        </nav>
+       
+
+        <!--contenedor de hot air balloon-->
+        <div class="fore-pier"></div>
+        <div class="back-sun"></div>
+        <div class="greeting">
             <h5 class="text-left portfolio1">Hello, I´m Katherin</h5>
+            <ul class="welcome disguised list-unstyled">
+              <li>W</li>
+              <li>E</li>
+              <li>L</li>
+              <li>C</li>
+              <li>O</li>
+              <li>M</li>
+              <li>E</li>
+            </ul>
             <h1 class="text-right portfolio2">to my Portfolio!</h1>
         </div>
           
@@ -70,47 +93,50 @@
       </div>
     </div>
     <!--..................Here starts Section About Me..................-->
-    <section class="about" >
-     <div class="content text-center">
-      <div class="container">
-      <div id="">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="col-md-offset-2 col-md-2">
-              <h4>FULL NAME</h4>
-              <p>Katherin Sihuin</p>
-            </div>
-            <div class="col-md-4">
-              <div class="profile-overlay">img 1</div>
-              <div class="profile-image">img 2</div>
-            </div>
-            <div class="col-md-2">
-              <h4>FULL NAME</h4>
-              <p>Katherin Sihuin</p>
+    <section id="B" class="js-scroll-step about"> 
+      <div class="container text-center">
+        <article> 
+          <div class="row">
+            <h5 class="text-over-image">who I am</h5>
+            <h2>- ABOUT ME -</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="col-md-2">
+                <h4>FULL NAME</h4>
+                <p>Katherin Sihuin</p>
+              </div>
+
+              <div class="col-md-8">
+                <div class="large-window">
+                  <div class="window-tint">
+                    <div class="promo-text">Fall Suits<strong><span>from</span> $99</strong><a href="" class="window-cta">Shop Now</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2">
+                <h4>FULL NAME</h4>
+                <p>Katherin Sihuin</p>
+              </div>
             </div>
           </div>
-        </div>
           
-        </div>
-
-        <div class="img-wrapper">
-        <img src="img/cloudOne.png" class="color-cloud1 img-responsive" alt="">
-          <h5 class="text-over-image">who I am</h5>
-          <h2>- ABOUT ME -</h2>
-        </div>
-        <div class="row">
-          <p>
-            Hello, I’m Katherin Sihuin, a front end web developer from Laboratoria who loves creative design, navigate on pinterest and watch epic films on my spare time. In my ongoing quest for continuous learning, I’ve found this new passion for web development. The experience of teaching myself new concepts and learning front-end technologies has been both challenging and extremely rewarding. That is why I would like to introduce you to my portfolio and take a look at it. Thank you!
-          </p>
-          <a href="#">
-            <div class="resume-btn">
-                <div class="inner-box"><h4>MY RESUME</h4></div>
-            </div>
-          </a>
-        </div> 
-      </div>
+          <div class="row">
+            <p>
+              Hello, I’m Katherin Sihuin, a front end web developer from Laboratoria who loves creative design, navigate on pinterest and watch epic films on my spare time. In my ongoing quest for continuous learning, I’ve found this new passion for web development. The experience of teaching myself new concepts and learning front-end technologies has been both challenging and extremely rewarding. That is why I would like to introduce you to my portfolio and take a look at it. Thank you!
+            </p>
+            <a href="#">
+              <div class="resume-btn">
+                  <div class="inner-box"><h4>MY RESUME</h4></div>
+              </div>
+            </a>
+          </div> 
+          </div> 
+        </article>
       </div>
     </section>
+      
     <!--..................Here starts Section Interest..................
     <section class="love">
       <div class="container text-center">
@@ -120,7 +146,7 @@
       </div>
     </section>-->
     <!--..................Here starts Section Skills..................-->
-    <section class="skills">
+    <section id="C" class="js-scroll-step skills">
       <div class="container text-center">
         <div class="skills-content"><h5>what I know</h5>
           <h2>- MY SKILLS -</h2>
@@ -158,128 +184,44 @@
     </section>  
   <!--..................Here starts Section Portfolio..................-->
 
-    <section class="hero">
+    <section id="D" class="js-scroll-step portfolio">
       <div class="container text-center">
-       <div ID="portfolio">
-           <h5>Some works</h5> 
-           <h2>- MY PORTFOLIO -</h2>   
-        <div class="portfolio-tab">
-            <div class="column">
-                <div class="prow prow1">
-                    <div data-index="slide-1">
-                        <div class="thumb_nb" style="background-image: url()"></div>
-                        <div class="thumb_color" style="background-image:url()"></div>
-                        <div class="description">
-                            <h1>TITLE</h1>
-                        </div>
-                        <div class="linkIcon"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-                <div class="prow prow2">
-                    <div data-index="slide-2">
-                        <div class="thumb_nb" style="background-image: url()"></div>
-                        <div class="thumb_color" style="background-image:url()"></div>
-                        <div class="description">
-                            <h1>TITLE</h1>
-                            <p></p><p>Categoria</p><p></p>
-                        </div>
-                        <div class="linkIcon"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-            </div> 
-            <div class="column">
-                <div class="prow prow1">
-                    <div data-index="slide-3">
-                        <div class="thumb_nb" style="background-image: url()"></div>
-                        <div class="thumb_color" style="background-image:url()"></div>
-                        <div class="description">
-                            <h1>TITLE</h1>
-                        </div>
-                        <div class="linkIcon"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-                <div class="prow prow2">
-                    <div data-index="slide-4">
-                        <div class="thumb_nb" style="background-image: url()"></div>
-                        <div class="thumb_color" style="background-image:url()"></div>
-                        <div class="description">
-                            <h1>TITLE</h1>
-                            <p></p><p>Categoria</p><p></p>
-                        </div>
-                        <div class="linkIcon"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-            </div> 
-            <div class="column">
-                <div class="prow prow1">
-                    <div data-index="slide-5">
-                        <div class="thumb_nb" style="background-image: url()"></div>
-                        <div class="thumb_color" style="background-image:url()"></div>
-                        <div class="description">
-                            <h1>TITLE</h1>
-                            <p></p><p>Categoria</p><p></p>
-                        </div>
-                        <div class="linkIcon"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-                <div class="prow prow2">
-                    <div data-index="slide-6">
-                        <div class="thumb_nb" style="background-image: url()"></div>
-                        <div class="thumb_color" style="background-image:url()"></div>
-                        <div class="description">
-                            <h1>TITLE</h1>
-                            <p></p><p>Categoria</p><p></p>
-                        </div>
-                        <div class="linkIcon"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-            </div> 
-            <div class="portfolio-bg-tab">
-                <div>
-                    <svg width="260" height="43">
-                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
-                    </svg>
-                </div>
-                <div>
-                    <svg width="260" height="43">
-                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
-                    </svg>
-                </div>
-                <div>
-                    <svg width="260" height="43">
-                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
-                    </svg>
-                </div>
-                <div>
-                    <svg width="260" height="43">
-                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
-                    </svg>
-                </div>
-                <div>
-                    <svg width="260" height="43">
-                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
-                    </svg>
-                </div>
-                <div>
-                    <svg width="260" height="43">
-                        <polygon fill="#9F8764" points="255.1,42.4 0,42.6 0,0 254.6,26.9 "></polygon>
-                    </svg>
-                </div>
+        <article> 
+          <h5>Some works</h5> 
+          <h2>- MY PORTFOLIO -</h2>  
+          <hr>
+          <div class="clothes-pics">
+            <div class="row img-row">
+              <figure class="col-xs-4"><img src="/images/model1.jpg">
+                <figcaption>BlackBird Sweater - <strong>$135</strong></figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="/images/model2.jpg">
+                <figcaption>BlackBird Trousers - <strong>$135</strong></figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="/images/model3.jpg">
+                <figcaption>BlackBird Jacket - <strong>$135</strong></figcaption>
+              </figure>
             </div>
-        </div>
-        </div>
+            <div class="row img-row">
+              <figure class="col-xs-4"><img src="/images/model2.jpg">
+                <figcaption>BlackBird Trousers - <strong>$135</strong></figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="/images/model3.jpg">
+                <figcaption>BlackBird Jacket - <strong>$135</strong></figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="/images/model1.jpg">
+                <figcaption>BlackBird Sweater - <strong>$135</strong></figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
-    <footer>
-      <div class="fluid-container text-center">
-        <div class="w990px">
+  <!--..................Here starts Footer..................-->
+    <footer id="E" class="js-scroll-step">
+      <div class="fluid-container text-center footer-stuff">
+        <div class="footer-stuff">
           <div class="perspectiveH1">
             <h1><span>contact</span></h1>
           </div>
@@ -296,7 +238,7 @@
           <div class="w990px thankyou">
               <h1>Thank you for your visit</h1>
           </div>
-          <div class="w990px ">
+          <div class="w990px">
             <p>Find me also in </p>
                 <span style="opacity: 0;">Linkedin</span>
                 <span style="opacity: 0;">Google Plus</span>
@@ -320,7 +262,7 @@
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
-
+  <script src="js/menu-nav-scroll.js"></script>
   <script src="js/bootstrap.min.js"></script>  
 </body>
 </html>

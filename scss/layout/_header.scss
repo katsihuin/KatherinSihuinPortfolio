@@ -1,8 +1,235 @@
-header {
+// Parallax
+
+.cloud-box {
     height: 100vh;
-    background: #3c0f46;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background: url(http://lottiepassellsyms.com/wp-content/uploads/2014/05/Sunset-haze.jpg) no-repeat;
+    background: url(../img/Sunset-haze.jpg);
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 3;
+
+}
+/*header {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background: url(../img/balloon-festival.jpg);
+    background-attachment: fixed;
+}*/
+
+.greeting {
+	width: 100%;
+  	height: 100px;
+  	position: absolute;
+  	margin-top: -50px;
+  	top: 50%;
+}
+
+.fore-pier {
+	width: 100%;
+  	height: 720px;
+  	background: url();
+    background-repeat: no-repeat;
+    background-position: bottom;
+  	position: absolute;
+  	left: 50%;
+  	margin-left: -680px;
+  	top: -500px;
+}
+
+.back-sun {
+	width: 900px;
+  	height: 298px;
+  	background-image: url();
+    background-repeat: no-repeat;
+    background-position: top left;
+  	position: absolute;
+  	left: 50%;
+  	margin-left: -480px;
+}
+
+/*............................................................................................. saludo */
+
+.welcome {
+    @include centerer;
+}
+.portfolio1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -320%);
+} 
+.portfolio2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+} 
+
+.welcome li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 4em;
+    color: #182548;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+
+.welcome li:last-child {
+    margin-right: 0px;
+}
+.welcome.disguised li {
+    opacity: 0;
+}
+.welcome.disguised li:nth-child(1) {transform: translate(-200px, -200px)};
+.welcome.disguised li:nth-child(2) {transform: translate(20px, 100px)};
+.welcome.disguised li:nth-child(3) {transform: translate(-150px, -80px)};
+.welcome.disguised li:nth-child(4) {transform: translate(10px, -200px)};
+.welcome.disguised li:nth-child(5) {transform: translate(-600px, 200px)};
+.welcome.disguised li:nth-child(6) {transform: translate(20px, -20px)};
+.welcome.disguised li:nth-child(7) {transform: translate(30px, 200px)};
+
+
+
+/* clouds */
+
+#clouds-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+#cloud-2, #cloud-3, #cloud-4, #cloud-4 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 2;
+}
+#cloud-1_1 {
+    content: "";
+    height: 259px;
+    background-image: url("../img/cloud0.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    background-position: 0px center;
+    opacity: .5;
+    background-size: contain;
+    @include animation(cloud_0, 150s, linear, infinite);
+}
+
+#grad {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    bottom: -72px;
+    left: 0;
+    right: 0;
+    background-repeat: repeat-x;
+    background-image: url(../img/cloud-grad.png);
+}
+
+#cloud-2 {
+    background-image: url(../img/cloud1.png);
+    width: 616px;
+    height: 283px;
+    opacity: .3;
+    top: 0px;
+    left: 5vw;
+    @include animation(cloud_2, 200s, linear, infinite)
+}
+
+@include keyframes(cloud_2) {
+  0%   { left: 5vw; }
+  33% { left: 105vw ;}
+  66%  { left: -282px ;}
+  100%  { left: 5vw ;}
+}
+
+#cloud-3 {
+    background-image: url(../img/cloud2.png);
+    width: 1000px;
+    height: 291px;
+    bottom: 0px;
+    left: 0px;
+    @include animation(slow-left-to-right, 300s, linear, infinite);
+}
+
+@include keyframes(slow-left-to-right) {
+    0%   { left: 0px; }
+    33% { left: 100vw}
+    66%   { left: -1000px; }
+    100%   { left: 0px; }
+}
+
+#cloud-4 {
+    width: 616px;
+    height: 283px;
+    background-image: url(../img/cloud4.png);
+    opacity: 1;
+    bottom: -20px;
+    right: 0px;
+    @include animation(cloud_4, 400s, linear, infinite);
+}
+
+@include keyframes(cloud_4) {
+    0%   { right: 0px; }
+    33% { right: 100vw}
+    66%   { right: 616px; }
+    100%   { right: 0px; }
+}
+
+#cloud-7 {
+    width: 642px;
+    height: 383px;
+    background-image: url(../img/cloud3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    bottom: -100px;
+    right: 0px;
+    opacity: .5;
+    @include animation(slow-right-to-left, 200s, linear, infinite);
+}
+
+@include keyframes(slow-right-to-left) {
+    0%   { right: 0px; }
+    33% { right: 100vw ;}
+    66% { right: -642px ;}
+    100% { right: 0px ;}
+}
+
+#cloud-8 {
+    width: 642px;
+    height: 383px;
+    background-image: url("../img/cloud3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    top: -115px;
+    left: 60vw;
+    opacity: .3;
+    @include animation(cloud_8, 400s, linear, infinite);
+}
+
+@include keyframes(cloud_8) {
+    0%   { left: 60vw; }
+    33% { left: -616px}
+    66%   { left: 100vw; }
+    100%   { left: 60vw; }
 }
