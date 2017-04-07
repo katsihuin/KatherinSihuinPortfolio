@@ -16,9 +16,18 @@ section {
 }
 
 h5 {
-   font-family: $h5-font;
-    font-size: 20px;
-    font-weight: bold;
+  font-family: $h5-font;
+  font-size: 20px;
+  font-weight: bold;
+    
+}
+
+h2 {
+  font-family: $title-font;
+} 
+
+p, button, h1{
+    font-family: $all-font;
 }
 
 /*--------------------------------------------------------------------------------------------------------ABOUT*/

@@ -7,7 +7,7 @@
   display: flex;
   justify-content: flex-end;
   align-items:center;
-  z-index: 3000;
+  z-index: 500;
 }
 
 .menu {
@@ -24,7 +24,7 @@
 }
 
 .menu-link{
-  color: #9109A6;
+  color: #242541;
   text-decoration:none;
 }
 
@@ -40,7 +40,7 @@
 
 .burger div {
     height: 4px;
-    background-color: #9109A6;
+    background-color: #242541;
     margin: 5px 0;
     border-radius: 25px;
     transition: all .5s;
@@ -50,11 +50,12 @@
 
 .navbar-default .navbar-nav>.active>a {
     background-color: rgba(22, 26, 108, 0.3);
-    color: #A56AAE;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fff;
+    color: #242541;
+    font-weight: bolder;
 }
 
 /*--------------------------------------------------------------------------------------------------------BURGER MENU ANIMATION */
@@ -98,7 +99,7 @@
     @include center-btn;
     width: 150px;
     height: 40px;
-    background: black;
+    background: #242541;
     box-sizing: border-box;
     padding: 3px; 
     margin-top: 20px;
