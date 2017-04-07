@@ -8,6 +8,11 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    position: relative;
+}
+
+section {
+  padding-top: 50px;
 }
 
 h5 {
@@ -16,39 +21,21 @@ h5 {
     font-weight: bold;
 }
 
-.fluid-container {
-  filter: url('#goo');
-}
-
+/*--------------------------------------------------------------------------------------------------------ABOUT*/
 .about, .portfolio {
     position: relative;
     background-color: #F9F8F3; 
     overflow: hidden;
-    z-index: 15;
+    z-index: 0;
 }
 
-.portfolio {
-    margin-bottom: 500px;
-}
-
-.about article, .portfolio  article {
+.about article {
     padding: 100px 0;
     max-width: 640px;
     margin: 0 auto;
     text-align: center;
 }
-    
-.portfolio article img {
-
-  max-width: 100%;
-}
-
-.portfolio article img  figure {
-  margin: auto
-}
-
-
-/*--------------------------------------------------------------------------------------------------------ABOUT*/
+   
 .large-window {
   height: 380px;
   background-image: url(../img/profile2.png);
@@ -126,7 +113,7 @@ h5 {
     left: 0;
     background:#ADB0CF;
     transform: skewY(8deg);
-    z-index: 25;
+    
 }
 .skills:after {
     content:'';
@@ -137,7 +124,7 @@ h5 {
     right: 0;
     background:#ADB0CF;
     transform: skewY(-8deg);
-    z-index:25;
+    
 }
 .skills-content h5{
   z-index: 100;
@@ -210,13 +197,27 @@ h5 {
 }
 
 /*--------------------------------------------------------------------------------------------------------PORTFOLIO*/
-// Model Grid
-
-.clothes-pics {
-  margin-bottom: 100px; 
+.portfolio {
+    margin-bottom: 500px;
+}
+ 
+.portfolio article img {
+  max-width: 100%;
 }
 
-.clothes-pics figure {
+.portfolio article img  figure {
+  margin: auto
+}
+
+.portfolio-pics {
+  margin-bottom: 100px; 
+}
+.portfolio  article {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+.portfolio-pics figure {
   margin-bottom: 20px;
   position: relative;
   opacity: 0;
@@ -228,12 +229,12 @@ h5 {
   height: 150px; 
 }
 
-.clothes-pics figure.is-showing {
+.portfolio-pics figure.is-showing {
       opacity: 1;
       transform: translateX(0px); 
 }
     
-.clothes-pics figure img {
+.portfolio-pics figure img {
       display: block;
       transform: scale(1);
       transition: all 0.3s ease-in-out; 
@@ -241,22 +242,21 @@ h5 {
     height: auto;
 }
 
-.clothes-pics figure:hover figcaption {
+.portfolio-pics figure:hover figcaption {
       left: 0%; 
 }
     
-.clothes-pics figure:hover img {
+.portfolio-pics figure:hover img {
       transform: scale(1.1); 
 }
   
-.clothes-pics figcaption {
+.portfolio-pics figcaption {
     position: absolute;
     bottom: 10px;
     left: -100%;
-    background: black;
-    color: white;
+    background: #242541;
+  color: #A56AAE;
     padding: 2px 8px;
-    font-size: 11px;
     transition: all 0.3s ease-in-out; 
 }
 

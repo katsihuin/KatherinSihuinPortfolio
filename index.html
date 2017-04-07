@@ -12,48 +12,54 @@
       <link href="https://fonts.googleapis.com/css?family=Pacifico|Patrick+Hand" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navigation">
     <div id="page" class="fluid-container">
-        <header id="home" class="js-scroll-step cloud-box">
-            <nav id="main-nav" class="main-nav">
-              <ul class="menu list-unstyled">
-                <li class="active menu-item"><a href="#home" class="menu-link">Home</a></li>
-                <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
-                <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
-                <li class="menu-item"><a href="#portfolio" class="menu-link">Portfolio</a></li> 
-                <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>     
-              </ul>
-            </nav>
-        
-            <div class="fore-pier"></div>
-            <div class="back-sun"></div>
-            <div class="greeting">
-                <h5 class="text-left portfolio1">Hello, I´m Katherin</h5>
-                <ul class="welcome disguised list-unstyled">
-                  <li>W</li>
-                  <li>E</li>
-                  <li>L</li>
-                  <li>C</li>
-                  <li>O</li>
-                  <li>M</li>
-                  <li>E</li>
-                </ul>
-                <h1 class="text-right portfolio2">to my Portfolio!</h1>
-            </div>
+      <header id="home" class="js-scroll-step cloud-box">
+        <nav id="main-nav" class="main-nav navbar-default navbar-fixed-top" role="navigation">
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="menu list-unstyled nav navbar-nav" role="tablist">
+              <li class="active menu-item"><a href="#home" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+              <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+              <li class="menu-item"><a href="#portfolio" class="menu-link">Portfolio</a></li> 
+              <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>     
+            </ul>
+          </div>
+          
+          <div class="burger">
+            <div class="patty_one"></div>
+            <div class="patty_two"></div>
+            <div class="patty_three"></div>
+          </div>
+        </nav>
 
-            <div id="clouds-wrapper">
-              <div id="cloud-1"></div>
-              <div id="cloud-1_1"></div>
-              <div id="grad"></div>
-              <div id="cloud-2"></div>
-              <div id="cloud-3"></div>
-              <div id="cloud-4"></div>
-              <div id="cloud-5"></div>
-              <div id="cloud-6"></div>
-              <div id="cloud-7"></div>
-              <div id="cloud-8"></div>
-            </div>
-        </header>
+        <div class="greeting">
+            <h5 class="text-left portfolio1">Hello, I´m Katherin</h5>
+            <ul class="welcome disguised list-unstyled">
+              <li>W</li>
+              <li>E</li>
+              <li>L</li>
+              <li>C</li>
+              <li>O</li>
+              <li>M</li>
+              <li>E</li>
+            </ul>
+            <h1 class="text-right portfolio2">to my Portfolio!</h1>
+        </div>
+          
+        <div id="clouds-wrapper">
+          <div id="cloud-1"></div>
+          <div id="cloud-1_1"></div>
+          <div id="grad"></div>
+          <div id="cloud-2"></div>
+          <div id="cloud-3"></div>
+          <div id="cloud-4"></div>
+          <div id="cloud-5"></div>
+          <div id="cloud-6"></div>
+          <div id="cloud-7"></div>
+          <div id="cloud-8"></div>
+        </div>
+    </header>
     <!--..................Here starts Section About Me..................-->
     <section id="about" class="js-scroll-step about"> 
       <div class="container text-center">
@@ -72,7 +78,7 @@
               <div class="col-md-8">
                 <div class="large-window">
                   <div class="window-tint">
-                    <div class="promo-text">Fall Suits<strong><span>from</span> $99</strong><a href="" class="window-cta">Shop Now</a></div>
+                    <div class="promo-text"></div>
                   </div>
                 </div>
               </div>
@@ -88,15 +94,17 @@
             <p>
               Hello, I’m Katherin Sihuin, a front end web developer from Laboratoria who loves creative design, navigate on pinterest and watch epic films on my spare time. In my ongoing quest for continuous learning, I’ve found this new passion for web development. The experience of teaching myself new concepts and learning front-end technologies has been both challenging and extremely rewarding. That is why I would like to introduce you to my portfolio and take a look at it. Thank you!
             </p>
-            <a href="https://drive.google.com/file/d/0B5vwMLhlWNhHLUhKN05wQkdGT28/view">
+            <a href="#">
               <div class="resume-btn">
                   <div class="inner-box"><h4>MY RESUME</h4></div>
               </div>
             </a>
           </div> 
+          </div> 
         </article>
       </div>
     </section>
+
     <!--..................Here starts Section Skills..................-->
     <section id="skills" class="js-scroll-step skills">
       <div class="container text-center">
@@ -134,130 +142,109 @@
         </div>
       </div>
     </section>  
-    
   <!--..................Here starts Section Portfolio..................-->
-    <section id="portfolio" class="js-scroll-step portfolio">
+
+    <section id="portfolio" class="portfolio">
       <div class="container text-center">
         <article> 
           <h5>Some works</h5> 
           <h2>- MY PORTFOLIO -</h2>  
           <hr>
-          <div class="clothes-pics">
+          <div class="portfolio-pics">
             <div class="row img-row">
-                <a href="https://katsihuin.github.io/ResponsiveBlog/">
-                  <figure class="col-xs-4 "><img src="img/work6.png" class="img-responsive img-portfolio">
-                    <figcaption>Spring Came - 
-                      <strong>
-                          <i class="fa fa-html5" aria-hidden="true"></i>
-                          <i class="fa fa-css3" aria-hidden="true"></i>
-                          <i class="fa fa-th" aria-hidden="true"></i>
-                          <i class="fa fa-desktop" aria-hidden="true"></i>
-                        </strong>
-                    </figcaption>
-                  </figure>
-                </a>   
-              <a href="https://katsihuin.github.io/CoderGirl/">
-                  <figure class="col-xs-4"><img src="img/work2.png" class="img-responsive img-portfolio">
-                    <figcaption>Coder Girl- 
-                      <strong>
-                        <i class="fa fa-html5" aria-hidden="true"></i>
-                        <i class="fa fa-css3" aria-hidden="true"></i>
-                        <i class="fa fa-th" aria-hidden="true"></i>
-                        <i class="fa fa-desktop" aria-hidden="true"></i>
-                      </strong>
-                    </figcaption>
-                  </figure>
-              </a>
-              <a href="https://katsihuin.github.io/CreamyTheme/">
+              <figure class="col-xs-4 "><img src="img/work6.png" class="img-responsive img-portfolio">
+                <figcaption>Spring Came - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-tablet" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="img/work2.png" class="img-responsive img-portfolio">
+                <figcaption>Coder Girl- 
+                  <strong>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                    <i class="fa fa-tablet" aria-hidden="true"></i>
+                  </strong>
+                </figcaption>
+              </figure>
               <figure class="col-xs-4"><img src="img/work1.png" class="img-responsive img-portfolio">
                 <figcaption>Creamy Theme - 
                   <strong>
                     <i class="fa fa-html5" aria-hidden="true"></i>
                     <i class="fa fa-css3" aria-hidden="true"></i>
                     <i class="fa fa-th" aria-hidden="true"></i>
-                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                    <i class="fa fa-tablet" aria-hidden="true"></i>
                   </strong>
                 </figcaption>
               </figure>
-              </a> 
             </div>
             <div class="row img-row">
-             <a href="https://coderminds.github.io/Danza-Arte-Coder-Minds/">
-                  <figure class="col-xs-4"><img src="img/work8.png" class="img-responsive img-portfolio">
-                    <figcaption>Danza Arte - 
-                      <strong>
-                          <i class="fa fa-html5" aria-hidden="true"></i>
-                          <i class="fa fa-css3" aria-hidden="true"></i>
-                          <i class="fa fa-th" aria-hidden="true"></i>
-                          <i class="fa fa-desktop" aria-hidden="true"></i>
-                        </strong>
-                    </figcaption>
-                  </figure>
-              </a> 
-                <a href="https://katsihuin.github.io/User360/">
-                  <figure class="col-xs-4"><img src="img/work12.png" class="img-responsive img-portfolio">
-                    <figcaption>User360 - 
-                      <strong>
-                          <i class="fa fa-html5" aria-hidden="true"></i>
-                          <i class="fa fa-css3" aria-hidden="true"></i>
-                          <i class="fa fa-th" aria-hidden="true"></i>
-                          <i class="fa fa-desktop" aria-hidden="true"></i>
-                        </strong>
-                    </figcaption>
-                  </figure>
-              </a> 
-              <a href="https://coderminds.github.io/La-Republica/">
+              <figure class="col-xs-4"><img src="img/work8.png" class="img-responsive img-portfolio">
+                <figcaption>Danza Arte - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-tablet" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="img/work12.png" class="img-responsive img-portfolio">
+                <figcaption>User360 - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-tablet" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
               <figure class="col-xs-4"><img src="img/work3.png" class="img-responsive img-portfolio">
                 <figcaption>La República - 
                   <strong>
                       <i class="fa fa-html5" aria-hidden="true"></i>
                       <i class="fa fa-css3" aria-hidden="true"></i>
                       <i class="fa fa-th" aria-hidden="true"></i>
-                      <i class="fa fa-desktop" aria-hidden="true"></i>
+                      <i class="fa fa-tablet" aria-hidden="true"></i>
                     </strong>
                 </figcaption>
               </figure>
-              </a> 
             </div>
-            
-            
             <div class="row img-row">
-                <a href="https://katsihuin.github.io/bicis-locas-2/">
-                  <figure class="col-xs-4"><img src="img/work7.png" class="img-responsive img-portfolio">
-                    <figcaption>Bicis Locas -  
-                      <strong>
-                        <i class="fa fa-html5" aria-hidden="true"></i>
-                        <i class="fa fa-css3" aria-hidden="true"></i>
-                        <i class="fa fa-th" aria-hidden="true"></i>
-                        <i class="fa fa-desktop" aria-hidden="true"></i>
-                      </strong>
-                    </figcaption>
-                  </figure>
-              </a> 
-              <a href="https://katsihuin.github.io/proyectoX/">
-                  <figure class="col-xs-4"><img src="img/work13.png" class="img-responsive img-portfolio">
-                    <figcaption>WhatsApp Web - 
-                      <strong>
-                          <i class="fa fa-html5" aria-hidden="true"></i>
-                          <i class="fa fa-css3" aria-hidden="true"></i>
-                          <i class="fa fa-th" aria-hidden="true"></i>
-                          <i class="fa fa-desktop" aria-hidden="true"></i>
-                        </strong>
-                    </figcaption>
-                  </figure>
-                </a>
-              <a href="https://katsihuin.github.io/LyftApp_Jquery/">
-                  <figure class="col-xs-4"><img src="img/work11.png" class="img-responsive img-portfolio">
-                    <figcaption>Lyft App - 
-                      <strong>
-                          <i class="fa fa-html5" aria-hidden="true"></i>
-                          <i class="fa fa-css3" aria-hidden="true"></i>
-                          <i class="fa fa-th" aria-hidden="true"></i>
-                          <i class="fa fa-desktop" aria-hidden="true"></i>
-                        </strong>
-                    </figcaption>
-                  </figure>
-               </a>
+              <figure class="col-xs-4"><img src="img/work7.png" class="img-responsive img-portfolio">
+                <figcaption>Bicis Locas -  
+                  <strong>
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <i class="fa fa-th" aria-hidden="true"></i>
+                    <i class="fa fa-tablet" aria-hidden="true"></i>
+                  </strong>
+                </figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="img/work13.png" class="img-responsive img-portfolio">
+                <figcaption>WhatsApp Web - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-tablet" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
+              <figure class="col-xs-4"><img src="img/work11.png" class="img-responsive img-portfolio">
+                <figcaption>Lyft App - 
+                  <strong>
+                      <i class="fa fa-html5" aria-hidden="true"></i>
+                      <i class="fa fa-css3" aria-hidden="true"></i>
+                      <i class="fa fa-th" aria-hidden="true"></i>
+                      <i class="fa fa-tablet" aria-hidden="true"></i>
+                    </strong>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </article>
@@ -269,28 +256,40 @@
       <div class="fluid-container text-center footer-stuff">
         <div class="footer-stuff">
           <div class="perspectiveH1">
-            <h1><span>contact</span></h1>
+            <h1><span>Contact</span></h1>
           </div>
           <div class="text1">
             <div><p>Katherin Sihuin<br><strong>Arequipa, Perú</strong><br></p>
-              <div>You can reach me by email on
-                <a href="#" class="spip_mail">nsihuin@gmail.com</a><br>Visit my github
-                <a target="_blank" href="https://github.com/katsihuin" class="spip_url spip_out auto" rel="external">https://github.com/katsihuin</a><br>
+              <div>You can reach me on this number
+                <a href="#" class="spip_mail">952-042-465</a><br> Or contact me via e-email at
+                <a target="_blank" href="https://github.com/katsihuin" class="spip_url spip_out auto" rel="external">nsihuin@gmail.com</a><br>
               </div>
             </div><div><br></div>
           </div>    
         </div>  
         <div class="text2">
-          <div class="w990px thankyou">
+          <div>
               <h1>Thank you for your visit</h1>
           </div>
-          
+          <div>
+            <p>Find me also in: </p>             
+            <ul class="list-unstyled hi-icon-wrap hi-icon-effect-8" id="social-media">
+              <li>
+                <a  href="https://www.linkedin.com/in/nurania-katherin-sihuin-14a97389/" class="hi-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a>
+              </li>
+              <li>
+                <a href=https://github.com/katsihuin class="hi-icon"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://web.facebook.com/nurania.sc" class="hi-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              </li>
+            </ul> 
+          </div>
         </div>    
       </div>
     </footer>
 
   </div>
-
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
   <script src="js/menu-nav-scroll.js"></script>
