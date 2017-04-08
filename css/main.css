@@ -1229,7 +1229,7 @@ footer ul li:nth-child(3) a:before {
 /* line 51, ../scss/modules/_buttons.scss */
 .navbar-default .navbar-nav > .active > a {
   background-color: rgba(22, 26, 108, 0.3);
-  color: #fff;
+  color: #ccccff;
 }
 
 /* line 56, ../scss/modules/_buttons.scss */
