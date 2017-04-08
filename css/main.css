@@ -1181,7 +1181,7 @@ footer ul li:nth-child(3) a:before {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  z-index: 500;
+  z-index: 3000;
 }
 
 /* line 13, ../scss/modules/_buttons.scss */
