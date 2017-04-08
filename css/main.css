@@ -75,7 +75,7 @@ p, button, h1 {
 
 /* line 61, ../scss/base/_base.scss */
 .large-window .window-tint {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -107,7 +107,7 @@ p, button, h1 {
   font-weight: 300;
   font-size: 18px;
   font-style: italic;
-  color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* line 94, ../scss/base/_base.scss */
@@ -135,7 +135,7 @@ p, button, h1 {
   position: relative;
 }
 
-/* line 116, ../scss/base/_base.scss */
+/* line 117, ../scss/base/_base.scss */
 .skills:before {
   content: '';
   width: 50%;
@@ -147,7 +147,7 @@ p, button, h1 {
   transform: skewY(8deg);
 }
 
-/* line 127, ../scss/base/_base.scss */
+/* line 128, ../scss/base/_base.scss */
 .skills:after {
   content: '';
   width: 50%;
@@ -159,19 +159,24 @@ p, button, h1 {
   transform: skewY(-8deg);
 }
 
-/* line 138, ../scss/base/_base.scss */
+/* line 139, ../scss/base/_base.scss */
+.skills-content {
+  margin-bottom: 80px;
+}
+
+/* line 143, ../scss/base/_base.scss */
 .skills-content h5 {
   z-index: 100;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-/* line 142, ../scss/base/_base.scss */
+/* line 148, ../scss/base/_base.scss */
 .skills-content h2 {
   z-index: 100;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-/* line 146, ../scss/base/_base.scss */
+/* line 153, ../scss/base/_base.scss */
 .skills_softwares {
   width: 600px;
   height: 230px;
@@ -179,7 +184,7 @@ p, button, h1 {
   position: relative;
 }
 
-/* line 153, ../scss/base/_base.scss */
+/* line 160, ../scss/base/_base.scss */
 .skills_softwares > .row {
   width: 100%;
   height: 1px;
@@ -189,7 +194,7 @@ p, button, h1 {
   opacity: 0;
 }
 
-/* line 161, ../scss/base/_base.scss */
+/* line 169, ../scss/base/_base.scss */
 .skills_softwares > .columns {
   position: absolute;
   top: 0;
@@ -205,7 +210,7 @@ p, button, h1 {
   -webkit-align-items: stretch;
 }
 
-/* line 175, ../scss/base/_base.scss */
+/* line 183, ../scss/base/_base.scss */
 .skills_softwares > .columns > .col {
   /* background-color: #fff; */
   width: 100px;
@@ -215,7 +220,7 @@ p, button, h1 {
   display: block;
 }
 
-/* line 183, ../scss/base/_base.scss */
+/* line 191, ../scss/base/_base.scss */
 .skills_softwares > .columns > .col > div {
   width: 25px;
   height: 0;
@@ -225,7 +230,7 @@ p, button, h1 {
   bottom: 50px;
 }
 
-/* line 191, ../scss/base/_base.scss */
+/* line 199, ../scss/base/_base.scss */
 .skills_softwares > .columns > .col > h1 {
   font-size: 16px;
   font-size: 1.6rem;
@@ -244,34 +249,34 @@ p, button, h1 {
 }
 
 /*--------------------------------------------------------------------------------------------------------PORTFOLIO*/
-/* line 209, ../scss/base/_base.scss */
+/* line 217, ../scss/base/_base.scss */
 .portfolio {
   margin-bottom: 500px;
 }
 
-/* line 213, ../scss/base/_base.scss */
+/* line 221, ../scss/base/_base.scss */
 .portfolio article img {
   max-width: 100%;
 }
 
-/* line 217, ../scss/base/_base.scss */
+/* line 225, ../scss/base/_base.scss */
 .portfolio article img figure {
   margin: auto;
 }
 
-/* line 221, ../scss/base/_base.scss */
+/* line 229, ../scss/base/_base.scss */
 .portfolio-pics {
   margin-bottom: 100px;
 }
 
-/* line 224, ../scss/base/_base.scss */
+/* line 232, ../scss/base/_base.scss */
 .portfolio article {
   max-width: 640px;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 229, ../scss/base/_base.scss */
+/* line 237, ../scss/base/_base.scss */
 .portfolio-pics figure {
   margin-bottom: 20px;
   position: relative;
@@ -284,13 +289,13 @@ p, button, h1 {
   height: 150px;
 }
 
-/* line 241, ../scss/base/_base.scss */
+/* line 249, ../scss/base/_base.scss */
 .portfolio-pics figure.is-showing {
   opacity: 1;
   transform: translateX(0px);
 }
 
-/* line 246, ../scss/base/_base.scss */
+/* line 254, ../scss/base/_base.scss */
 .portfolio-pics figure img {
   display: block;
   transform: scale(1);
@@ -299,17 +304,17 @@ p, button, h1 {
   height: auto;
 }
 
-/* line 254, ../scss/base/_base.scss */
+/* line 262, ../scss/base/_base.scss */
 .portfolio-pics figure:hover figcaption {
   left: 0%;
 }
 
-/* line 258, ../scss/base/_base.scss */
+/* line 266, ../scss/base/_base.scss */
 .portfolio-pics figure:hover img {
   transform: scale(1.1);
 }
 
-/* line 262, ../scss/base/_base.scss */
+/* line 270, ../scss/base/_base.scss */
 .portfolio-pics figcaption {
   position: absolute;
   bottom: 10px;
@@ -320,7 +325,7 @@ p, button, h1 {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 272, ../scss/base/_base.scss */
+/* line 280, ../scss/base/_base.scss */
 .thankyou {
   text-transform: uppercase;
   margin-bottom: 0;

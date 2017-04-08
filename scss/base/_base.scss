@@ -113,6 +113,7 @@ p, button, h1{
     background: #ADB0CF;
     position: relative;
 }
+
 .skills:before {
     content:'';
     width: 50%;
@@ -121,9 +122,9 @@ p, button, h1{
     top: -48px;
     left: 0;
     background:#ADB0CF;
-    transform: skewY(8deg);
-    
+    transform: skewY(8deg);    
 }
+
 .skills:after {
     content:'';
     width: 50%;
@@ -133,23 +134,29 @@ p, button, h1{
     right: 0;
     background:#ADB0CF;
     transform: skewY(-8deg);
-    
 }
+
+.skills-content {
+  margin-bottom: 80px;
+}
+
 .skills-content h5{
   z-index: 100;
-    margin-top: 100px;
+  margin-top: 50px;
 }
+
 .skills-content h2{
   z-index: 100;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+
  .skills_softwares {
     width: 600px;
     height: 230px;
     margin: 0 auto;
     position: relative;
-
 }
+
  .skills_softwares > .row {
     width: 100%;
     height: 1px;
@@ -158,7 +165,8 @@ p, button, h1{
     top: 0px;
     opacity: 0;
 }
- .skills_softwares > .columns {
+
+.skills_softwares > .columns {
     position: absolute;
     top: 0;
     width: 100%;
