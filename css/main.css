@@ -1124,13 +1124,18 @@ footer ul li a .fa {
   z-index: 3;
 }
 
-/* line 49, ../scss/layout/_footer.scss */
+/* line 48, ../scss/layout/_footer.scss */
+footer ul li a:hover {
+  border: 3px solid #fff;
+}
+
+/* line 52, ../scss/layout/_footer.scss */
 footer ul li a:hover .fa {
   color: #fff;
   transform: rotateY(360deg);
 }
 
-/* line 54, ../scss/layout/_footer.scss */
+/* line 57, ../scss/layout/_footer.scss */
 footer ul li a:before {
   content: '';
   position: absolute;
@@ -1143,22 +1148,22 @@ footer ul li a:before {
   z-index: 2;
 }
 
-/* line 66, ../scss/layout/_footer.scss */
+/* line 69, ../scss/layout/_footer.scss */
 footer ul li a:hover:before {
   top: 0;
 }
 
-/* line 70, ../scss/layout/_footer.scss */
+/* line 73, ../scss/layout/_footer.scss */
 footer ul li:nth-child(1) a:before {
   background: #007bb5;
 }
 
-/* line 74, ../scss/layout/_footer.scss */
+/* line 77, ../scss/layout/_footer.scss */
 footer ul li:nth-child(2) a:before {
   background: #43BFFB;
 }
 
-/* line 78, ../scss/layout/_footer.scss */
+/* line 81, ../scss/layout/_footer.scss */
 footer ul li:nth-child(3) a:before {
   background: #3b5998;
 }
@@ -1166,7 +1171,7 @@ footer ul li:nth-child(3) a:before {
 /*--------------------------------------------------------------------------------------------------------BURGER MENU */
 /* line 4, ../scss/modules/_buttons.scss */
 .main-nav {
-  background-color: rgba(190, 68, 148, 0.2);
+  background-color: rgba(190, 68, 148, 0);
   height: 50px;
   display: flex;
   justify-content: flex-end;
@@ -1218,7 +1223,7 @@ footer ul li:nth-child(3) a:before {
 
 /* line 51, ../scss/modules/_buttons.scss */
 .navbar-default .navbar-nav > .active > a {
-  background-color: rgba(22, 26, 108, 0.3);
+  background-color: rgba(22, 26, 108, 0);
   color: #fff;
 }
 

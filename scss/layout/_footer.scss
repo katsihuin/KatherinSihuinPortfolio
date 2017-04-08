@@ -6,7 +6,7 @@ footer {
     width: 100%;
     z-index: -1;
     background: #242541;
-  color: #A56AAE;
+    color: #A56AAE;
    
 }
 footer .contact a {
@@ -44,6 +44,9 @@ footer ul li a .fa {
     color: #262626;
     transition: .5s;
     z-index: 3;
+}
+footer ul li a:hover {
+    border: 3px solid #fff;
 }
 
 footer ul li a:hover .fa {
