@@ -75,7 +75,7 @@ p, button, h1 {
 
 /* line 61, ../scss/base/_base.scss */
 .large-window .window-tint {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -107,7 +107,7 @@ p, button, h1 {
   font-weight: 300;
   font-size: 18px;
   font-style: italic;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0);
 }
 
 /* line 94, ../scss/base/_base.scss */
@@ -1176,7 +1176,7 @@ footer ul li:nth-child(3) a:before {
 /*--------------------------------------------------------------------------------------------------------BURGER MENU */
 /* line 4, ../scss/modules/_buttons.scss */
 .main-nav {
-  background-color: rgba(190, 68, 148, 0);
+  background-color: rgba(190, 68, 148, 0.2);
   height: 50px;
   display: flex;
   justify-content: flex-end;
@@ -1228,7 +1228,7 @@ footer ul li:nth-child(3) a:before {
 
 /* line 51, ../scss/modules/_buttons.scss */
 .navbar-default .navbar-nav > .active > a {
-  background-color: rgba(22, 26, 108, 0);
+  background-color: rgba(22, 26, 108, 0.3);
   color: #fff;
 }
 
