@@ -48,6 +48,12 @@ p, button, h1 {
     z-index: 99999999;
     background-color: #fff;
 }
+#loading img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
 /*--------------------------------------------------------------------------------------------------------ABOUT*/
 /* line 34, ../scss/base/_base.scss */
 .about, .portfolio {

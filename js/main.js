@@ -1,5 +1,5 @@
 $(window).load(function(){
-	 $('#loading').fadeOut(3000);
+	 $('#loading').fadeOut(2000);
 });
 
 $(document).on('ready', init);
