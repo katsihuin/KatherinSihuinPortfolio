@@ -1,10 +1,13 @@
+$(window).load(function(){
+	 $('#loading').fadeOut(3000);
+});
+
 $(document).on('ready', init);
 
 var loader = $(".loader");
 
 function init() {
 	$("window").on('load', onLoad);
-	//$('.js-nav').on('click', onClickBurger);
 	onGreetings();
 }
 
@@ -51,7 +54,3 @@ $(window).scroll(function(){
 	});
 
 }
-
-//function onClickBurger(){
-  	//$(this).parent().find('.menu').toggleClass('active');
-//}
